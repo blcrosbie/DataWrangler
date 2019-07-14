@@ -9,7 +9,10 @@
 
 # Virtual Environment
 *.env
-
+*/bin/*
+*/lib/*
+*/include/*
+*.Python
 
 ## Setuptools distribution folder.
 dist/*

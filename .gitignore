@@ -1,0 +1,32 @@
+# Compiled python modules.
+*.pyc
+
+# pytest details
+.cache/
+
+# my env secrets
+.config/
+
+# Virtual Environment
+*.env
+
+## Setuptools distribution folder.
+dist/*
+build/*
+
+## Python-Pytest egg metadata, regenerated from source files setuptools.
+.eggs/*
+/*.egg-info
+/*.egg
+.pytest_cache/*
+
+## Pylint Config
+.pylintrc
+
+# debug files, error output
+*.log
+
+# My local Sublime Config
+sftp-config.json
+# My local OS file structure
+.DS_Store

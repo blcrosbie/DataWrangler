@@ -9,7 +9,7 @@
 
 # Virtual Environment
 *.env
-.datawrangler/
+*/bin/
 
 ## Setuptools distribution folder.
 dist/*

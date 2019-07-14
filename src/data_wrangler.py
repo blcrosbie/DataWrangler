@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jul 14 10:32:22 2019
+Created on Sun Jul 14 14:10:52 2019
 @author: blcrosbie
 
-Common Extract/Transfer/Load functions for Postgres Database
+DataWrangling data to and from the Database
 """
 
 import os
@@ -14,67 +14,38 @@ import time
 import datetime
 from functools import wraps
 
-def is_extension_supported(extension):
-    """ MANUAL UPDATES REQUIRED IN THIS CHECK
-    Work on Extending the Features of ETL start with CSV"""
-    check_flag = False
-    if extension == '.csv':
-        check_flag = True
-    elif extension == '.json':
-        pass
-    elif extension == '.txt':
-        pass
-    elif extension == '.xml':
-        pass	
-    else:
-        pass
+# find base directory for file management and other configs
+SRC_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(SRC_DIR)
+LOG_DIR = os.path.join(BASE_DIR, os.path.join("logs", "logger"))
 
-    return check_flag
+# Use a global backup directory for csv file ETL
+BACKUP_DIR = os.path.join(os.path.dirname(BASE_DIR), "database_backup")
+EXTRACT_DIR = os.path.join(BACKUP_DIR, os.path.join("ETL", "extract"))
+LOAD_DIR = os.path.join(BACKUP_DIR, os.path.join("ETL", "load"))
 
-def file_check(filename, extension, filepath):
-    """ Basic built-in Existence CHECKS from os for filepath/filename+extension """
-    # First check if the extension is supported within MY personal modules
-    pass_flag = False
-    if is_extension_supported(extension=extension):
-        ext_check = True
-    else:
-        ext_check = False
-        raise NameError("File Type {ext} not supported".format(ext=extension))
+#pylint: disable=wrong-import-position
+sys.path.append(BASE_DIR)
+# To import my local modules
 
-    # Next check if this filepath is valid
-    if os.path.isdir(filepath):
-        path_check = True
-    else:
-        path_chech = False
-        raise FileNotFoundError("Directory does not Exist {path}".format(path=filepath))
+from setup import setup_logger as setup_logger
+from my_modules import extract_transfer_load as etl
 
-    # Finally, put it all together and make sure this file exists
-    full_filename = os.path.join(filepath, filename+extension)
-    if os.path.isfile(full_filename):
-        file_check = True
-        pass_flag = True
-    else:
-        file_check = False
-        raise FileNotFoundError("File does not Exist {fn}".format(fn=filename))
+# End import my local modules
+sys.path.append(SRC_DIR)
+#pylint: enable=wrong-import-position
 
-    assert ext_check
-    assert path_check
-    assert file_check
+# Standard Logging Configuration:
+logger = setup_logger.get_logger(**{"current_script":os.path.basename(__file__), "base_dir":BASE_DIR, "log_dir":LOG_DIR})
 
-    return pass_flag
+def main():
+    """ Main: manual enter filename info """
+    fn_to_load = 'test_file'
+    ext = '.csv'
+    schema = 'archive'
+    fn_to_load_path = os.path.join(EXTRACT_DIR, schema)
+    etl.load_from_file(filename=fn_to_load, extension=ext, filepath=fn_to_load_path)
 
 
-# E: Extract
-# Functions pertaining to downloading data from a database
-def extract_from_database(filename=None, extension=None, filepath=None):
-    assert file_check(filename=filename, extension=extension, filepath=filepath)
-	
-
-# L: Load 
-# Functions pertaining to uploading data to a database
-def load_from_file(filename=None, extension=None, filepath=None):
-    assert file_check(filename=filename, extension=extension, filepath=filepath)
-
-
-
-
+if __name__ == '__main__':
+    main()

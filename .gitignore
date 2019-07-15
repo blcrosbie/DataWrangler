@@ -35,3 +35,6 @@ build/*
 sftp-config.json
 # My local OS file structure
 .DS_Store
+
+
+src/my_project_sandbox.py

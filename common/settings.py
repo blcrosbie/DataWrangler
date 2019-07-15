@@ -32,6 +32,23 @@ def load_environment():
     os.environ['TEST_DIR'] = config['DIRECTORY']['TEST_DIR']
     os.environ['DATABASE_BACKUP_DIR'] = config['DIRECTORY']['DATABASE_BACKUP_DIR']
 
+    # Database Config HARDCODED TO POSTGRES FOR NOW!
+    # Credentials
+    os.environ['DB_USER'] = config['DATABASE']['POSTGRES']['POSTGRES_USER']
+    os.environ['DB_PASSWORD'] = config['DATABASE']['POSTGRES']['POSTGRES_PASSWORD']
+    os.environ['DB_PORT'] = config['DATABASE']['POSTGRES']['POSTGRES_PORT']
+    # Hosts
+    os.environ['STAGING'] = config['DATABASE']['POSTGRES']['POSTGRES_HOST']['STAGING']
+    os.environ['PRODUCTION'] = config['DATABASE']['POSTGRES']['POSTGRES_HOST']['PRODUCTION']
+    # Instances
+    os.environ['DB_TEST'] = config['DATABASE']['POSTGRES']['POSTGRES_DB']['TEST']
+    os.environ['DB_DEV'] = config['DATABASE']['POSTGRES']['POSTGRES_DB']['DEV']
+    os.environ['DB_PROD'] = config['DATABASE']['POSTGRES']['POSTGRES_DB']['PROD']
+
+
+
+
+
 
 def setup_logger(**kwargs):
     """ standardized logging module """

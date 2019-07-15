@@ -340,6 +340,25 @@ def load_file_to_dict(filename, extension, filepath):
 
     return file_results
 
+def save_to_file(list_data, filename, extension, filepath):
+    """ For debug and sanity checks, save to csv during progress """
+    new_fn = filename + extension
+    new_file = os.path.join(filepath, new_fn)
+    keys = find_all_possible_fields(list_data)
+    if extension == '.csv':
+        with open(new_file, 'w') as output_file:
+            writer = csv.DictWriter(output_file, keys)
+            writer.writeheader()
+            writer.writerows(list_data) 
+        print("{filename} saved".format(filename=new_file))
+
+    elif extension == '.json':
+        with open(new_file, mode='w', encoding='utf-8') as output_file:
+            output_file.write(json.dumps(list_data))
+            print("{filename} saved".format(filename=new_file))
+    else:
+        print("wrong file type {ext}, cannot save {fn}".format(ext=extension, fn=filename))
+
 
 """--------------------------------------------------------------------------
     TESTING AND DEBUGGING FUNCTIONS

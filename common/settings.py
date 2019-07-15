@@ -33,26 +33,19 @@ def load_environment():
     os.environ['DATABASE_BACKUP_DIR'] = config['DIRECTORY']['DATABASE_BACKUP_DIR']
 
 
-def setup_logger(env_key=None, **kwargs):
+def setup_logger(**kwargs):
     """ standardized logging module """
-    if env_key is None:
-        env_key = "LOG_CFG"
-    #value = os.getenv(env_key, None)
-    # if value:
-    #   path = value
-
-    # if level is None:
-    #   level = logging.INFO
-
-    logging_config_path = os.path.dirname(os.path.abspath(__file__))
-    log_config = os.path.join(logging_config_path, "logging.json")
 
     for key, value in kwargs.items():
         if key == "current_script":
             current_script = str(value)
             current_script_fn = current_script.replace(".py", "")
+
         if key == "base_dir":
-            BASE_DIR = str(value)
+            base_dir = str(value)
+
+        if key == "current_dir":
+            current_dir = str(value)
 
         if key == "log_dir":
             LOG_DIR = str(value)
@@ -61,7 +54,10 @@ def setup_logger(env_key=None, **kwargs):
         if key == "level":
             level = value
 
-    os.chdir(logging_config_path)
+    logging_config_path = os.path.dirname(os.path.abspath(__file__))
+    log_config = os.path.join(logging_config_path, "logging.json")
+
+    # os.chdir(logging_config_path)
     with open(log_config, 'rt') as file:
         config = json.load(file)
         temp_config = config
@@ -88,7 +84,7 @@ def setup_logger(env_key=None, **kwargs):
             temp_config["handlers"]["critical_file_handler"]["filename"] = critical_fn
             temp_config["handlers"]["debug_file_handler"]["filename"] = all_fn
 
-    os.chdir(BASE_DIR)
+    # os.chdir(current_dir)
     logging.config.dictConfig(temp_config)
     # except Exception as error:
     #   print("ERROR SETTING UP LOG: {error}".format(error=error))

@@ -22,7 +22,7 @@ def check_the_logger():
     ------------------------------------------------------------------------------------------"""
 
     LOCAL_LOG_DIR = os.path.join(LOCAL_REPO_DIR, os.path.join("logs", "logger"))
-    logger = settings.setup_logger(**{"current_script":os.path.basename(__file__), "base_dir":LOCAL_BASE_DIR, "log_dir":LOCAL_LOG_DIR})
+    logger = settings.setup_logger(**{"current_script":os.path.basename(__file__), "log_dir":LOCAL_LOG_DIR})
     """---------------------------------------------------------------------------------------"""
     
     # End Copy

@@ -14,6 +14,17 @@ import time
 import datetime
 from functools import wraps
 
+LOCAL_SRC_DIR = os.path.dirname(os.path.abspath(__file__))
+LOCAL_REPO_DIR = os.path.dirname(LOCAL_SRC_DIR)
+LOCAL_BASE_DIR = os.path.dirname(LOCAL_REPO_DIR)
+
+sys.path.append(LOCAL_REPO_DIR)
+
+#pylint: disable=wrong-import-position
+from common import basic_functions as cbf
+from common import settings
+#pylint: enable=wrong-import-position
+
 def is_extension_supported(extension):
     """ MANUAL UPDATES REQUIRED IN THIS CHECK
     Work on Extending the Features of ETL start with CSV"""
@@ -68,13 +79,13 @@ def file_check(filename, extension, filepath):
 # Functions pertaining to downloading data from a database
 def extract_from_database(filename=None, extension=None, filepath=None):
     assert file_check(filename=filename, extension=extension, filepath=filepath)
-	
 
 # L: Load 
 # Functions pertaining to uploading data to a database
+@cbf.test_wrapper
 def load_from_file(filename=None, extension=None, filepath=None):
     assert file_check(filename=filename, extension=extension, filepath=filepath)
-
-
+    file_data = cbf.load_file_to_dict(filename=filename, extension=extension, filepath=filepath)
+    print(file_data[0])
 
 

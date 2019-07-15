@@ -24,6 +24,7 @@ LOCAL_LOG_DIR = os.path.join(LOCAL_REPO_DIR, os.path.join("logs", "logger"))
 sys.path.append(LOCAL_REPO_DIR)
 # To import my local modules
 from common import settings
+from common import basic_functions as cbf
 from src import extract_transfer_load as etl
 # End import my local modules
 
@@ -35,15 +36,19 @@ logger = settings.setup_logger(**{"current_script":os.path.basename(__file__), "
 
 def main():
     """ Main: manual enter filename info """
-    # run environment setup
+
+    # Run environment setup and find the directory where backup csv files exist
     settings.load_environment()
     DATABASE_BACKUP_DIR = os.path.join(LOCAL_BASE_DIR, os.environ['DATABASE_BACKUP_DIR'])
     EXTRACT_DIR = os.path.join(DATABASE_BACKUP_DIR, os.path.join("ETL", "extract"))
 
+    # Enter file info to load into database
     fn_to_load = 'test_file'
     ext = '.csv'
     schema = 'archive'
     fn_to_load_path = os.path.join(EXTRACT_DIR, schema)
+
+    # Use etl module to load
     etl.load_from_file(filename=fn_to_load, extension=ext, filepath=fn_to_load_path)
 
 

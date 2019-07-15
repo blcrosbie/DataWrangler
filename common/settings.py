@@ -1,30 +1,39 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thurs Jun 21 18:14:07 2019
-
+Created on Thurs Jul 14 22:41:55 2019
 @author: blcrosbie
-Standard Modules
 """
 import os
-import csv
-import json
 import sys
+import json
 import datetime
 import logging
 import logging.config
 
-# find base directory for file management and other configs
-SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
-BASE_DIR = os.path.dirname(SETUP_DIR)
-CONFIG_DIR = os.path.join(BASE_DIR, ".config")
 
-"""--------------------------------------------------------------------------
-    Standard Logging Configuration:
+def load_environment():
+    IMPORT_CONFIG_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".config")
+    IMPORT_CONFIG_FILE = os.path.join(IMPORT_CONFIG_DIR, "config.json")
 
---------------------------------------------------------------------------"""
+    with open(IMPORT_CONFIG_FILE, 'r') as f:
+        meta_import_config = json.load(f)
 
-def get_logger(env_key=None, **kwargs):
+    project_config_filename = meta_import_config['PROJECT']['ENV_CONFIG_FILENAME']
+    LOCAL_ENV_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
+    project_details = os.path.join(LOCAL_ENV_DIR, project_config_filename)
+    with open(project_details, 'r') as f:
+        config = json.load(f)
+
+    os.environ['BASE_DIR'] = config['DIRECTORY']['BASE_DIR']
+    os.environ['REPO_DIR'] = config['DIRECTORY']['REPO_DIR']
+    os.environ['SRC_DIR'] = config['DIRECTORY']['SRC_DIR']
+    os.environ['LOG_DIR'] = config['DIRECTORY']['LOG_DIR']
+    os.environ['TEST_DIR'] = config['DIRECTORY']['TEST_DIR']
+    os.environ['DATABASE_BACKUP_DIR'] = config['DIRECTORY']['DATABASE_BACKUP_DIR']
+
+
+def setup_logger(env_key=None, **kwargs):
     """ standardized logging module """
     if env_key is None:
         env_key = "LOG_CFG"
@@ -35,8 +44,8 @@ def get_logger(env_key=None, **kwargs):
     # if level is None:
     #   level = logging.INFO
 
-    # config_path = os.path.dirname(os.path.abspath(__file__))
-    log_config = os.path.join(CONFIG_DIR, "logging.json")
+    logging_config_path = os.path.dirname(os.path.abspath(__file__))
+    log_config = os.path.join(logging_config_path, "logging.json")
 
     for key, value in kwargs.items():
         if key == "current_script":
@@ -52,7 +61,7 @@ def get_logger(env_key=None, **kwargs):
         if key == "level":
             level = value
 
-    os.chdir(CONFIG_DIR)
+    os.chdir(logging_config_path)
     with open(log_config, 'rt') as file:
         config = json.load(file)
         temp_config = config

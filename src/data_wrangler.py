@@ -28,7 +28,7 @@ LOAD_DIR = os.path.join(BACKUP_DIR, os.path.join("ETL", "load"))
 sys.path.append(BASE_DIR)
 # To import my local modules
 
-from setup import setup_logger as setup_logger
+from common import settings
 from my_modules import extract_transfer_load as etl
 
 # End import my local modules
@@ -36,10 +36,11 @@ sys.path.append(SRC_DIR)
 #pylint: enable=wrong-import-position
 
 # Standard Logging Configuration:
-logger = setup_logger.get_logger(**{"current_script":os.path.basename(__file__), "base_dir":BASE_DIR, "log_dir":LOG_DIR})
+logger = settings.setup_logger(**{"current_script":os.path.basename(__file__), "base_dir":BASE_DIR, "log_dir":LOG_DIR})
 
 def main():
     """ Main: manual enter filename info """
+
     fn_to_load = 'test_file'
     ext = '.csv'
     schema = 'archive'

@@ -6,6 +6,7 @@
 
 # my env secrets
 .config/
+.env/
 
 # Virtual Environment
 *.env

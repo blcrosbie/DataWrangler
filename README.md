@@ -16,8 +16,11 @@ common File/Text/ETL functions for database use cases in python
   - ```$ cd <BASE_DIR>```
   - ```<BASE_DIR> $ mkdir <EXTERNAL_GITHUB_DIR> ```
 
-  Embed Repository as Submodule
-  - ```$ git submodule https://github.com/blcrosbie/DataWrangler external_github/DataWrangler```
+  Create Branch and Embed Repository as Submodule
+  - ```$ git submodule https://github.com/blcrosbie/DataWrangler <EXTERNAL_GITHUB_DIR>/DataWrangler```
+
+  To Remove from your project
+  - ```$ git rm --cached <EXTERNAL_GITHUB_DIR>/DataWrangler```
 
 # Run Tests:
   Automated Setup the Virtual Environment for backend testing

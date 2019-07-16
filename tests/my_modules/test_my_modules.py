@@ -17,7 +17,7 @@ def test_all_my_modules():
 
 def my_etl_functions():
     # Use a global backup directory for csv file ETL
-    settings.load_environment()
+    settings.setup_environment()
     DATABASE_BACKUP_DIR = os.path.join(LOCAL_BASE_DIR, os.environ['DATABASE_BACKUP_DIR'])
 
     EXTRACT_DIR = os.path.join(DATABASE_BACKUP_DIR, os.path.join("ETL", "extract"))

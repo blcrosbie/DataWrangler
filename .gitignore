@@ -1,4 +1,4 @@
-# Compiled python modules.
+temptem# Compiled python modules.
 *.pyc
 
 # pytest details
@@ -30,6 +30,9 @@ build/*
 
 # debug files, error output
 *.log
+
+# my files for client use-cases
+temp_csv/
 
 # My local Sublime Config
 sftp-config.json

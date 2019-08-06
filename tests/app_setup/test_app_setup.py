@@ -4,10 +4,9 @@ import sys
 LOCAL_TESTS_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOCAL_REPO_DIR = os.path.dirname(LOCAL_TESTS_DIR)
 LOCAL_BASE_DIR = os.path.dirname(LOCAL_REPO_DIR)
-LOCAL_ROOT_DIR = os.path.dirname(os.path.abspath(os.curdir))
+LOCAL_HOME_DIR = os.path.expanduser("~")
 
 sys.path.append(LOCAL_REPO_DIR)
-
 from common import settings
 
 # import all local/common modules
@@ -55,11 +54,14 @@ def check_project_directories(config):
     dir_config = settings.load_project_directory(config=config)
     all_dir_names = [key.upper() for key in dir_config.keys()]
     for dir_name in all_dir_names:
-        check_dir = os.path.join(LOCAL_ROOT_DIR, os.environ[dir_name])
-        try:
-            assert os.path.isdir(check_dir)
-        except Exception:
-            raise Exception("Directory does not Exist {path}".format(path=check_dir))
+        if dir_name == "REMOTE_DIR":
+            pass
+        else:
+            check_dir = os.path.join(LOCAL_HOME_DIR, os.environ[dir_name])
+            try:
+                assert os.path.isdir(check_dir)
+            except Exception:
+                raise Exception("Directory does not Exist {path}".format(path=check_dir))
 
     return
 

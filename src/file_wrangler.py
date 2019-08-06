@@ -15,36 +15,71 @@ import json
 import time
 import datetime
 from functools import wraps
-import pytz
-import psycopg2
-import psycopg2.extras
-import psycopg2.extensions
-
-LOCAL_SRC_DIR = os.path.dirname(os.path.abspath(__file__))
-LOCAL_REPO_DIR = os.path.dirname(LOCAL_SRC_DIR)
-LOCAL_BASE_DIR = os.path.dirname(LOCAL_REPO_DIR)
-LOCAL_LOG_DIR = os.path.join(LOCAL_REPO_DIR, os.path.join("logs", "logger"))
-
-sys.path.append(LOCAL_REPO_DIR)
-
-#pylint: disable=wrong-import-position
-from common import settings
-from common import basic_functions as cbf
-
-# from source modules
-from src import db_connections as dbconn
-from src import file_wrangler
-from src import sql_wrangler
-
-#pylint: enable=wrong-import-position
-
-# Standard Logging Configuration:
-logger = settings.setup_logger(**{"current_script":os.path.basename(__file__), "log_dir":LOCAL_LOG_DIR})
 
 
 """------------------------------------------------------------------------------------
         File Functions
 ------------------------------------------------------------------------------------"""
+
+def is_extension_supported(extension):
+    """ MANUAL UPDATES REQUIRED IN THIS CHECK
+    Work on Extending the Features of ETL start with CSV"""
+    check_flag = False
+    if extension == '.csv':
+        check_flag = True
+    elif extension == '.json':
+        pass
+    elif extension == '.txt':
+        pass
+    elif extension == '.xml':
+        pass	
+    else:
+        pass
+
+    return check_flag
+
+def is_database_supported(database_type):
+    """ MANUAL UPDATES REQUIRED IN THIS CHECK
+    Work on Extending the Features of ETL start with CSV"""
+    check_flag = False
+    if database_type.lower() == 'postgres':
+        check_flag = True
+    else:
+        pass
+
+    return check_flag
+
+def file_check(filename, extension, filepath):
+    """ Basic built-in Existence CHECKS from os for filepath/filename+extension """
+    # First check if the extension is supported within MY personal modules
+    pass_flag = False
+    if is_extension_supported(extension=extension):
+        ext_check = True
+    else:
+        ext_check = False
+        raise NameError("File Type {ext} not supported".format(ext=extension))
+
+    # Next check if this filepath is valid
+    if os.path.isdir(filepath):
+        path_check = True
+    else:
+        path_check = False
+        raise FileNotFoundError("Directory does not Exist {path}".format(path=filepath))
+
+    # Finally, put it all together and make sure this file exists
+    full_filename = os.path.join(filepath, filename+extension)
+    if os.path.isfile(full_filename):
+        file_check = True
+        pass_flag = True
+    else:
+        file_check = False
+        raise FileNotFoundError("File does not Exist {fn}".format(fn=filename))
+
+    assert ext_check
+    assert path_check
+    assert file_check
+
+    return pass_flag
 
 def compare_sources(filedata, dbdata):
     """ for information about file to load into database"""
@@ -110,70 +145,6 @@ def compare_sources(filedata, dbdata):
 
     return fresh_data
 
-
 """------------------------------------------------------------------------------------
         End File Functions
-------------------------------------------------------------------------------------"""
-
-
-
-
-"""------------------------------------------------------------------------------------
-        SQL Functions
-------------------------------------------------------------------------------------"""
-
-
-# def sql_to_dict(db_class, qry, **kwargs):
-#     """ INPUT: constructed query string with wild card %(variable)s to fill in with kwargs
-#     RETURNS: values from database in dictionary"""
-#     results = []
-
-#     with db_class.connection as conn:
-#         with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cursor:
-#             sql = cursor.mogrify(qry, kwargs)
-#             cursor.execute(sql)                
-#             columns = [column[0] for column in cursor.description]
-#             for row in cursor.fetchall():
-#                 results.append(dict(zip(columns, row)))
-
-#     return results
-
-# def disconnect(db_class):
-#     """ simple disconnect as per class method set to non __del__ """
-#     if db_class is not None:
-#         db_class = None
-#     return
-
-
-
-"""------------------------------------------------------------------------------------
-        End SQL Functions
-------------------------------------------------------------------------------------"""
-
-
-
-"""------------------------------------------------------------------------------------
-        ETL Functions
-------------------------------------------------------------------------------------"""
-
-
-# E: Extract
-# Functions pertaining to downloading data from a database
-def extract_from_database(db_class, table, schema):
-    select_all_query = """SELECT * FROM {schema}.{table};""".format(schema=schema, table=table)
-    results = sql_wrangler.sql_to_dict(db_class=db_class, qry=select_all_query)
-
-    return results
-
-
-# L: Load 
-# Functions pertaining to uploading data to a database
-def load_from_file(filename=None, extension=None, filepath=None):
-    assert file_wrangler.file_check(filename=filename, extension=extension, filepath=filepath)
-    file_data = cbf.load_file_to_dict(filename=filename, extension=extension, filepath=filepath)
-    return file_data
-
-
-"""------------------------------------------------------------------------------------
-       End ETL Functions
 ------------------------------------------------------------------------------------"""

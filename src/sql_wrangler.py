@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jul 15 10:40:02 2019
+Created on Mon Aug 05 16:52:23 2019
 @author: blcrosbie
 
-Database Declarations Database
+Common Functions and statement manipulation with SQL and Python
 """
 
 import os
@@ -13,80 +13,7 @@ import json
 import time
 import datetime
 from functools import wraps
-import pytz
-import psycopg2
-import psycopg2.extras
 import psycopg2.extensions
-
-LOCAL_SRC_DIR = os.path.dirname(os.path.abspath(__file__))
-LOCAL_REPO_DIR = os.path.dirname(LOCAL_SRC_DIR)
-LOCAL_BASE_DIR = os.path.dirname(LOCAL_REPO_DIR)
-LOCAL_LOG_DIR = os.path.join(LOCAL_REPO_DIR, os.path.join("logs", "logger"))
-
-sys.path.append(LOCAL_REPO_DIR)
-
-#pylint: disable=wrong-import-position
-from common import basic_functions as cbf
-from common import settings
-#pylint: enable=wrong-import-position
-
-# Standard Logging Configuration:
-logger = settings.setup_logger(**{"current_script":os.path.basename(__file__), "log_dir":LOCAL_LOG_DIR})
-
-# SQL FUNCTIONS:
-class PostgresConnection:
-    """ Class: for Postgres Connection: """
-    def __init__(self, host=None, instance=None):
-        """ config db in test/dev/prod mode """
-        try:
-            settings.setup_environment()
-            if host is None:
-            	host = os.environ['STAGING']
-            if instance is None:
-            	instance = os.environ['DB_TEST']
-
-            self.__host = host
-            self.__port = os.environ['DB_PORT']
-            self.user = os.environ['DB_USER']
-            self.__secret_password = os.environ['DB_PASSWORD']
-            self.db_name = instance
-
-            self.connection = psycopg2.connect(
-                                        host=self.__host,
-                                        port=self.__port,
-                                        user=self.user,
-                                        password=self.__secret_password,
-                                        dbname=self.db_name,
-                                        connect_timeout=30
-                                        #sslmode='verify-ca'
-                                        #sslcert=[local path of client-cert.pem file] ~/.postgresql/postgresql.crt
-                                        #sslkey=[local path of client-key.pem file] ~/.postgresql/postgresql.key
-                                        #sslrootcert=[local path of server-ca.pem file] ~/.postgresql/root.crt
-            )
-            # db_logger.info("Postgres Connection to {0} Open".format(self.DBname))
-
-            # TEST CONNECTION BY QUERYING SERVER VERSION RUNNING
-            if not isinstance(self.connection.server_version, int):
-                raise ValueError("Unable to Connect")
-
-            logger.info("connected to database")
-            self.connection.autocommit = True
-
-        except ValueError as e:
-            logger.error(e)
-
-        except NameError as e:
-            logger.error(e)
-
-        except psycopg2.OperationalError as e:
-            logger.error("Unable to connect!\n %(error)s ", error=e)
-
-        except psycopg2.DatabaseError as e:
-            logger.error(e)
-
-    def __del__(self):
-        self.connection.close()
-        logger.info("disconnected from database")
 
 
 """------------------------------------------------------------------------------
@@ -160,51 +87,53 @@ def psycopg2_exceptions(func):
 
     return wrapped  
 
-"""------------------------------------------------------------------------------
-CURSOR as a WRAPPER
---------------------------------------------------------------------------------"""
-def get_cursor(func):
+
+
+# CREATE
+def insert_into_statement(table, schema, columns):
+    """ 
+    INSERT INTO: new data into existing table
+    requires value wildcard string Mixed = False
+    data_dict: all data to enter into table as dictionary
     """
-    Wrapper for opening cursor    
+    # Columns for SQL statement
+    cols = ", ".join(columns)
+    entry_wildcard = wildcard_fill(columns=columns, mixed=False)
 
-    COMMON METHOD to handle connection, auto-commit/rollback if error
-    with psycopg2.connect(DSN) as conn:
-        with conn.cursor() as curs:
-            curs.execute(SQL)
-    
-    When a connection exits the with block, if no exception has been raised by the block, the transaction is committed. In case of exception the transaction is rolled back.
+    insert_sql = """INSERT INTO {schema}.{table} ({columns}) 
+                    VALUES ({values});
 
-    When a cursor exits the with block it is closed, releasing any resource eventually associated with it. The state of the transaction is not affected.
+                """.format(schema=schema, table=table, columns=cols, values=entry_wildcard)
 
-    A connection can be used in more than a with statement and each with block is effectively wrapped in a separate transaction:
-    
-    """
-    @wraps(func)
-    @psycopg2_exceptions
-    def wrapped(db_class, *args, **kwargs):
-        """massive try block for all psycopg2 functions"""
-        # db_class = PostgresConnection()
-        with db_class.connection as conn:
-            with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cursor:
-                results = func(cursor, *args, **kwargs)
-                return results
+    return insert_sql
 
-        if connect is not None:
-            connect = None
-        
-    return wrapped  
+
+def wildcard_fill(columns, mixed=None):
+    """ Create wild card create for dict fill in later
+    Use Mixed == True for SELECT and UPDATE queries
+    Use Mixed == False for INSERT INTO queries
+    ***POSSIBLY need to adjust for is NULL: Working 2019-06-05
+    """  
+    if mixed:
+        wild = ", ".join(["{key} = %({var_val})s".format(key=col, var_val=col) for col in columns])
+    else:
+        wild = ", ".join(["%({})s".format(col) for col in columns])
+
+    return wild
 
 
 @psycopg2_exceptions
 def sql_to_dict(db_class, qry, **kwargs):
     """ INPUT: constructed query string with wild card %(variable)s to fill in with kwargs
     RETURNS: values from database in dictionary"""
+    results = []
+
     with db_class.connection as conn:
         with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cursor:
             sql = cursor.mogrify(qry, kwargs)
             cursor.execute(sql)                
             columns = [column[0] for column in cursor.description]
-            results = []
+            
             for row in cursor.fetchall():
                 results.append(dict(zip(columns, row)))
 
@@ -261,36 +190,3 @@ def insert_into_new(filedata, db_class, table, schema):
             logger.info("PROGRESS: {suc} SUCCESS, {att} ATTEMPTS, {rem} REMAIN".format(att=count, suc=row_success_count, rem=(total_row_count-count)))
 
     return unsuccessful_entries
-
-
-# CREATE
-def insert_into_statement(table, schema, columns):
-    """ 
-    INSERT INTO: new data into existing table
-    requires value wildcard string Mixed = False
-    data_dict: all data to enter into table as dictionary
-    """
-    # Columns for SQL statement
-    cols = ", ".join(columns)
-    entry_wildcard = wildcard_fill(columns=columns, mixed=False)
-
-    insert_sql = """INSERT INTO {schema}.{table} ({columns}) 
-                    VALUES ({values});
-
-                """.format(schema=schema, table=table, columns=cols, values=entry_wildcard)
-
-    return insert_sql
-
-
-def wildcard_fill(columns, mixed=None):
-    """ Create wild card create for dict fill in later
-    Use Mixed == True for SELECT and UPDATE queries
-    Use Mixed == False for INSERT INTO queries
-    ***POSSIBLY need to adjust for is NULL: Working 2019-06-05
-    """  
-    if mixed:
-        wild = ", ".join(["{key} = %({var_val})s".format(key=col, var_val=col) for col in columns])
-    else:
-        wild = ", ".join(["%({})s".format(col) for col in columns])
-
-    return wild

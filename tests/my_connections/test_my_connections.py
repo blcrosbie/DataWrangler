@@ -9,7 +9,7 @@ sys.path.append(LOCAL_REPO_DIR)
 
 # import all local/common modules
 from common import settings
-from src import database_connection as cnx
+from src import db_connections as dbconn
 
 def whats_my_db_type(config):
     """ Check all DB types that are in config and return list"""
@@ -22,7 +22,7 @@ def dummy_connect(db_type_list):
     """ check to see if Connection Class has been defined for each db_type in config"""
     for db_type in db_type_list:
         if db_type.upper() == 'POSTGRES':
-            test_conn = cnx.PostgresConnection()
+            test_conn = dbconn.PostgresConnection()
             test_conn = None
         else:
             raise NameError("{db} connection class not yet defined".format(db=db_type))

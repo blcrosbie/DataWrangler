@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  data-wrangler:
+    build: .
+    container_name: fintech_analysis_env
+    volumes:
+      - .:/app
+    environment:
+      - SCENARIO=fintech # Can be fintech, nlp, etc.
+    command: >
+      sh -c "python main.py --scenario $${SCENARIO} && 
+             echo 'DataWrangler environment [Scenario: $${SCENARIO}] ready.' &&
+             tail -f /dev/null"
+    # Keeping the container alive for benchmarking/exploration
+    tty: true
+    stdin_open: true
+
+  # (Optional) You could add a PG container here later for comparison
+  # postgres:
+  #   image: postgres:15
+  #   environment:
+  #     POSTGRES_PASSWORD: password

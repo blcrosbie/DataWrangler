@@ -1,4 +1,4 @@
 faker==30.1.0
 duckdb==1.1.1
-pytest==8.3.3
+pytest==9.0.3
 pandas==2.2.3

@@ -1,0 +1,901 @@
+user_id,created_at,country,acquisition_channel,kyc_status,kyc_completed_at,is_business
+b3be20b6-325a-43cc-ac4b-452b92945fd3,2024-11-23 11:01:00,US,partner,verified,2024-11-28 18:01:00,false
+fb97c44a-d16a-4f0d-a75c-6cebda977153,2025-04-02 01:05:00,US,organic,verified,2025-04-02 19:05:00,false
+3af05782-05c5-4725-bf24-b331db6dc2d9,2024-01-15 01:12:00,CA,paid_search,verified,2024-01-26 18:12:00,false
+a3ba5d70-9095-49e2-9001-75a930f2fb66,2025-03-21 08:48:00,AU,paid_search,pending,\N,false
+cd4640a3-6db9-4a5b-a849-d37a3308e4ab,2025-01-25 18:06:00,CA,paid_search,verified,2025-01-27 21:06:00,false
+35f1119e-62b5-4c30-9365-25a1c4bc0a7b,2024-01-24 07:29:00,US,paid_search,verified,2024-02-01 10:29:00,false
+d647de2d-851d-4fe2-9f20-4211c32afcdf,2025-03-29 19:36:00,US,organic,verified,2025-03-31 08:36:00,false
+ab260efe-6b10-496c-b393-9385b74c666c,2024-02-10 15:55:00,GB,sales,verified,2024-02-16 15:55:00,false
+cc8a4799-f4b5-4e24-a44a-0cbd4cd1fc1e,2024-06-30 14:42:00,FR,referral,verified,2024-07-15 05:42:00,false
+5c22d910-e4db-485a-a084-efdb3ef716e2,2025-01-08 15:10:00,NL,referral,verified,2025-01-14 11:10:00,false
+a394a57d-a5c3-4d82-b2b3-3c4a4d9b68e7,2024-12-16 18:53:00,US,organic,verified,2024-12-18 00:53:00,false
+053da0c2-dc4d-4ef1-a7d9-f942e91762e1,2024-05-17 10:13:00,DE,partner,pending,\N,false
+97607833-c141-42fd-85de-b236c1d01ede,2024-09-12 20:56:00,GB,organic,pending,\N,false
+c7cfdb2b-ba74-4de2-bdd0-95bf04b5d949,2024-10-15 01:16:00,IN,paid_search,verified,2024-10-24 06:16:00,false
+3df34c31-5bda-4524-a839-d7b1389b4364,2024-03-12 00:31:00,BR,organic,verified,2024-03-13 02:31:00,false
+f6f7deb2-d697-48e4-9648-2ded97c13bb5,2024-12-14 21:38:00,DE,referral,verified,2024-12-23 02:38:00,false
+41415fec-9543-4896-b3ab-7fa11a1e9a89,2024-10-10 08:43:00,IN,partner,verified,2024-10-24 23:43:00,false
+3c9b962f-5999-4c7d-a4e0-23fd6a299f1c,2024-06-23 11:18:00,US,partner,verified,2024-07-03 05:18:00,false
+42bfc0da-568a-4c87-ac32-34f327784419,2024-09-13 13:32:00,IN,paid_search,pending,\N,false
+04d44ae7-45e8-4020-b652-8340f73031f9,2024-11-07 14:09:00,DE,partner,verified,2024-11-11 02:09:00,false
+7705e4a5-6ae3-46d6-b56e-a3cfb7c06751,2024-01-02 03:20:00,IN,sales,verified,2024-01-04 14:20:00,false
+049fb1c2-e115-4908-b41c-b40a41e93199,2024-06-06 15:03:00,IN,organic,verified,2024-06-18 19:03:00,false
+c4586cce-c3b1-4bf3-ad47-2bd6443ce956,2024-02-06 01:49:00,GB,referral,verified,2024-02-20 04:49:00,false
+5df59f56-25c5-4117-a8f5-19eb197e1ec0,2025-03-23 03:27:00,IN,partner,rejected,\N,false
+73692f0b-d21a-4e2a-aa56-8ef0af766c2d,2024-12-31 17:25:00,FR,paid_search,rejected,\N,false
+5092d233-212a-4a43-8058-a68292cc737b,2024-03-02 15:14:00,DE,organic,verified,2024-03-03 03:14:00,false
+fc1080b8-c56e-4326-81e3-d50a01d9c370,2024-02-07 06:40:00,IN,sales,verified,2024-02-08 18:40:00,true
+2077da8a-4e4b-414d-801f-05c1b215c42c,2024-05-01 16:42:00,US,affiliate,verified,2024-05-13 06:42:00,false
+1dddad7b-1c30-4cb0-8161-6f9f6abf9067,2024-08-30 15:50:00,US,organic,verified,2024-09-08 09:50:00,false
+50035b8c-1bdc-4b90-8287-1f45cfca2f87,2024-08-04 21:29:00,US,referral,pending,\N,false
+9b238abb-0b3a-4d82-97af-d490be1695cb,2024-02-01 20:46:00,US,organic,verified,2024-02-04 05:46:00,false
+103bc8bb-c053-48cc-9cb5-3969faa4d6b8,2024-08-04 13:17:00,GB,sales,verified,2024-08-06 05:17:00,false
+40a12d89-1052-4fe7-bc99-beca64b54420,2024-01-27 04:34:00,NL,affiliate,pending,\N,false
+94f746ae-c571-40aa-8619-3f52436bb40a,2024-03-26 21:31:00,IN,organic,verified,2024-04-04 12:31:00,true
+45d4ab65-287b-41b9-9c07-4ae8d0861358,2024-07-18 16:59:00,GB,paid_search,pending,\N,false
+20d27191-8313-489c-929f-b05a28e56f8b,2025-02-06 01:42:00,US,organic,verified,2025-02-09 10:42:00,true
+9764093a-debf-4b66-b014-0d3cac0e419b,2025-01-12 01:03:00,US,referral,verified,2025-01-13 08:03:00,false
+b826bc64-04cc-4632-baf9-3ea4b5d7c97c,2024-09-28 13:03:00,US,organic,rejected,\N,false
+66a113d0-fefa-4c6b-9d28-576c0f33e50a,2024-12-11 15:25:00,US,referral,verified,2024-12-23 20:25:00,false
+b2e5c20a-b58a-4df3-a96e-46262cf046c7,2024-08-03 05:37:00,IN,organic,verified,2024-08-10 00:37:00,false
+2abfe053-5205-40d6-bcff-225eeced2eeb,2024-05-02 16:25:00,US,paid_search,verified,2024-05-16 12:25:00,false
+5fc01fd1-f8ea-4704-bba8-bd3e5769ebf5,2024-02-07 08:29:00,NL,organic,verified,2024-02-19 10:29:00,false
+118518d9-b505-4881-b658-89ea633c9494,2024-05-15 12:59:00,IN,paid_search,verified,2024-05-17 01:59:00,false
+310af36f-eb14-4e12-961c-3858d9fe84d1,2025-03-03 01:45:00,GB,partner,verified,2025-03-17 01:45:00,false
+ce68e0cb-2276-422e-af6b-85a1d60e30d7,2024-12-05 11:56:00,IN,partner,verified,2024-12-08 00:56:00,false
+2f9b178c-9139-4a61-9cd5-a121c7021ab4,2024-05-25 03:13:00,AU,sales,verified,2024-05-29 13:13:00,false
+13fd68f8-67e2-432e-a6a5-b180fb5c623f,2024-05-08 09:05:00,US,paid_search,verified,2024-05-14 08:05:00,false
+4fd7db99-a719-4600-993f-21f2fe4ea89d,2024-05-14 13:47:00,DE,organic,verified,2024-05-23 17:47:00,false
+dc4a1d0c-e378-4f74-8194-91d5601a86b1,2024-12-19 12:34:00,DE,organic,verified,2024-12-27 11:34:00,false
+fbffd3bd-74fa-4686-9b99-fcc035059d03,2024-06-06 19:57:00,NL,organic,rejected,\N,false
+4e1f26cf-fe49-4bc3-93a5-d627819d8590,2024-12-15 15:42:00,IN,paid_search,verified,2024-12-27 15:42:00,false
+657b43cb-3a52-4eab-a3c0-f69303cab336,2024-03-20 15:55:00,IN,organic,verified,2024-03-24 11:55:00,false
+1e5d8dce-bb01-44b0-8e20-d9246b013fa5,2024-06-19 21:51:00,US,partner,verified,2024-06-25 06:51:00,true
+ff145d2e-6953-4d87-8538-2261c11da647,2025-03-22 09:54:00,BR,referral,verified,2025-03-26 17:54:00,false
+f2d166f9-fe96-4fd4-8507-c7c2aa985e04,2025-02-11 15:14:00,CA,organic,verified,2025-02-15 19:14:00,true
+4767a399-d9ef-4742-8084-cda6c6df17e8,2025-01-30 16:22:00,FR,sales,verified,2025-02-08 06:22:00,false
+93f94e93-cb7b-441e-bf54-780205a67678,2024-01-15 11:56:00,US,affiliate,rejected,\N,false
+193423cc-49da-4a60-89b0-d10be2d16058,2024-02-26 03:27:00,GB,affiliate,verified,2024-03-03 21:27:00,true
+507aecad-46ca-49e2-83be-72e54a1d4772,2025-04-06 02:12:00,US,affiliate,verified,2025-04-15 11:12:00,false
+811a0c50-5410-4f34-82c2-6562b9615c84,2025-01-04 07:47:00,GB,affiliate,verified,2025-01-12 03:47:00,false
+eaa5a8fa-d9b3-4e80-8bf1-47d85dcc0e40,2024-11-15 18:42:00,AU,paid_search,pending,\N,false
+1ece90e9-a71a-4e23-81c9-5f104b3fc983,2024-07-28 18:25:00,US,paid_search,verified,2024-08-09 15:25:00,false
+72c5b7f8-e0f1-4fba-9886-f132af090318,2024-12-13 07:57:00,US,referral,verified,2024-12-25 12:57:00,true
+78be14d2-80cb-4f5f-b313-52cbcbddd01d,2024-05-26 14:27:00,DE,paid_search,pending,\N,false
+b0452e00-4d99-479b-9e08-f1e473dd594a,2024-12-11 14:32:00,FR,paid_search,verified,2024-12-15 06:32:00,false
+f30a9b13-e55c-4a6e-8460-47f6bfe44576,2024-11-13 18:05:00,SG,partner,pending,\N,false
+adb51afa-358f-4e45-a2be-050fab724c7f,2024-04-11 12:01:00,FR,partner,verified,2024-04-21 17:01:00,false
+940a24b5-4287-4900-bd10-b0821aaebcea,2025-03-30 04:36:00,CA,paid_search,verified,2025-04-14 02:36:00,false
+76a1d993-ea15-4107-a9e8-93988a480f4c,2024-12-18 08:57:00,SG,organic,verified,2024-12-20 16:57:00,false
+2a5443d2-ef42-46fa-8680-2cc71d5a3c5e,2024-12-23 00:29:00,IN,organic,verified,2024-12-28 09:29:00,false
+acf8d359-209b-4d60-bdc6-5ab714ba86c9,2024-08-26 05:33:00,DE,affiliate,rejected,\N,false
+d3cded39-2be2-4391-b2b1-1bf86816de6e,2024-11-10 07:57:00,GB,organic,verified,2024-11-22 01:57:00,false
+44ce99f4-5443-4b7f-8c12-6aac6a008436,2024-08-18 16:48:00,US,partner,verified,2024-09-01 08:48:00,false
+a75ac116-3b65-4cb8-a29a-66624acc7c8a,2024-05-02 16:28:00,US,paid_search,verified,2024-05-08 20:28:00,false
+1df2342a-ab17-4877-880c-52473d5f8496,2024-02-11 12:09:00,US,organic,verified,2024-02-26 09:09:00,false
+62e4eacb-74b9-4ed3-87f6-777081da2757,2024-06-19 01:29:00,BR,paid_search,verified,2024-06-23 12:29:00,false
+28eb2d11-2fab-4442-90f7-889f7be01f9b,2024-12-22 08:54:00,DE,referral,pending,\N,false
+d1f00ebe-960c-47d9-974a-c59ce0c5dcb9,2024-06-01 20:54:00,BR,referral,pending,\N,false
+19bcdd15-4e44-4ccc-b370-e5c7790624c5,2025-02-14 03:57:00,US,referral,verified,2025-02-18 21:57:00,false
+d9cce87e-0d5c-443b-bb4b-6ab20326a730,2024-12-09 05:51:00,BR,affiliate,verified,2024-12-12 19:51:00,false
+d07d4fa3-dee7-4531-8901-a4b19e724305,2024-09-30 08:58:00,FR,organic,verified,2024-10-12 10:58:00,false
+423292b8-c8be-449b-917b-b8fe42a70135,2025-03-19 22:11:00,US,paid_search,verified,2025-03-28 02:11:00,false
+34899c77-530d-45dd-ab4d-a773a909b641,2025-03-26 20:17:00,US,organic,verified,2025-04-04 21:17:00,true
+0fda419a-75e3-4e67-9f1b-047923fae8af,2024-10-03 09:22:00,SG,referral,verified,2024-10-04 22:22:00,false
+1ec68f15-7d02-4d22-a935-45e25ccc722b,2024-05-06 14:53:00,US,referral,verified,2024-05-09 22:53:00,true
+4ec1c4f3-f983-4021-9507-00f6d3e23255,2024-04-21 22:44:00,US,referral,verified,2024-04-29 20:44:00,false
+3d62242c-5a24-4d49-bce0-440c7e5c3887,2024-02-28 13:19:00,IN,referral,verified,2024-02-29 04:19:00,false
+ce2edcf3-f4d5-4b91-8e68-10fc644d26a3,2024-07-11 20:45:00,AU,referral,verified,2024-07-24 13:45:00,true
+4b161810-0d36-4369-8b8f-ebff40e12fc2,2025-01-30 17:54:00,BR,referral,verified,2025-02-02 08:54:00,true
+5ab21f62-4f4a-435c-93e9-d4abe64255e9,2024-09-29 21:42:00,FR,organic,verified,2024-10-10 18:42:00,false
+96646f76-bd70-46e5-a4ad-d9caed625f99,2024-09-07 11:27:00,FR,sales,rejected,\N,false
+09e1627d-3b56-45e2-8550-02df3b6032d4,2024-08-10 13:46:00,US,sales,verified,2024-08-24 12:46:00,false
+51984849-bf27-4a4f-ba1f-c8792b7d8b47,2024-09-04 22:27:00,DE,paid_search,pending,\N,false
+58e88a0d-9b3a-494b-83a3-4ff94a368ca7,2024-02-14 16:56:00,DE,partner,verified,2024-02-24 15:56:00,false
+d3261e82-c628-4ea9-b9e8-c558aabee574,2024-09-10 18:11:00,BR,paid_search,verified,2024-09-18 09:11:00,false
+b91ee3e7-fbef-4826-ad5e-d38e44683896,2024-12-25 16:35:00,US,partner,verified,2024-12-29 19:35:00,false
+dd8378b8-c165-4451-998d-3d60dd4124e2,2025-01-23 15:44:00,GB,organic,verified,2025-02-03 04:44:00,false
+fbb4073c-5c26-4fd0-b282-f13501c66716,2024-07-27 06:15:00,CA,referral,verified,2024-08-08 17:15:00,false
+547c4b90-263c-448b-aefa-af8c1541480e,2025-01-17 01:21:00,US,organic,verified,2025-01-26 19:21:00,false
+bb4f1e8a-ade2-4498-8beb-f37dcb6aa49e,2024-04-08 18:07:00,US,organic,verified,2024-04-23 13:07:00,false
+5535b3ef-533e-4a73-a0c0-d4e24a9f3756,2025-01-06 02:48:00,NL,sales,verified,2025-01-12 04:48:00,false
+e167f0f6-0bb0-4e23-8cd7-2dbbb7cfdc17,2024-07-03 13:19:00,US,organic,verified,2024-07-15 00:19:00,true
+5c3c809c-3100-42a4-acba-ca3d318d75a7,2024-05-30 06:08:00,US,organic,verified,2024-06-09 19:08:00,false
+5d1f0dad-efb4-40b0-9ce5-c1672876468f,2024-09-02 22:21:00,US,sales,verified,2024-09-04 02:21:00,true
+29b937d0-ec50-47ac-aa67-39a99f6878bb,2024-02-03 20:31:00,AU,organic,verified,2024-02-17 08:31:00,false
+57be0254-9f4b-418c-913a-090b898ecb27,2024-06-04 10:15:00,DE,partner,verified,2024-06-13 09:15:00,false
+104eaf5e-6773-4148-bc6d-e77aa076597e,2024-09-24 20:28:00,US,referral,pending,\N,false
+ed34bcad-e303-4ce7-9cc2-2cbbcf411376,2024-10-19 03:03:00,IN,organic,verified,2024-10-21 07:03:00,false
+61108712-b066-480d-b98a-c2af75bc2a69,2024-12-04 10:10:00,US,organic,verified,2024-12-16 06:10:00,false
+31e9a683-e1c4-406f-ab2f-9048cef2b331,2024-10-31 23:18:00,AU,partner,verified,2024-11-07 04:18:00,false
+1ecd79f3-3d1b-4f39-a1ac-634462176401,2024-12-17 15:59:00,DE,sales,verified,2024-12-31 01:59:00,false
+da6cb42d-ea18-470a-be85-e74b78bfa750,2024-02-29 01:14:00,BR,organic,verified,2024-03-05 19:14:00,false
+071c1a75-fc29-4de7-ab76-bc7edc3b6c81,2024-06-07 03:47:00,IN,paid_search,pending,\N,false
+9936b279-8052-4d5d-a225-2daad804a544,2024-06-05 06:25:00,GB,referral,rejected,\N,true
+d4f5fca2-4a88-4a9d-a7d8-3c6ba7a3f535,2024-01-21 21:47:00,US,organic,verified,2024-01-27 07:47:00,false
+5d47e9c8-6c2c-4a4a-8f24-59f9f9ec3fcd,2025-03-17 02:37:00,NL,partner,rejected,\N,false
+c7c94cb8-43c1-421a-a21c-51f5e53a7f47,2024-01-21 13:30:00,IN,organic,verified,2024-01-31 01:30:00,false
+ce8881be-2a6f-466e-bb41-4ef6f50c9e2b,2024-11-21 23:05:00,US,partner,verified,2024-11-30 18:05:00,false
+ffb0c411-0ada-4500-948e-cc4407e16058,2024-06-17 21:44:00,IN,sales,verified,2024-07-02 02:44:00,false
+7e6a55b3-05ff-488c-b034-26a2bb63ef11,2024-08-20 10:20:00,NL,paid_search,verified,2024-08-22 23:20:00,false
+781c9094-23e0-4a2c-987e-7bdf5ca5f39c,2024-01-02 05:55:00,US,referral,verified,2024-01-11 02:55:00,false
+b39fe82c-0615-4585-988c-b20f77d1e05c,2024-09-13 04:28:00,US,organic,verified,2024-09-17 14:28:00,false
+d2280d17-0a7d-487c-bc81-d498671b6428,2025-03-27 06:31:00,DE,organic,verified,2025-04-09 18:31:00,false
+7b343be7-34d4-4cad-9693-e72bbdba702c,2024-10-09 08:35:00,NL,affiliate,verified,2024-10-14 05:35:00,false
+a3540f9f-a762-41f0-a295-8b6a7ed301d6,2024-03-02 04:53:00,GB,organic,verified,2024-03-08 11:53:00,false
+f20eac0d-2fcd-4f65-8290-f3d220a3ef3f,2024-08-29 15:29:00,US,referral,verified,2024-09-06 21:29:00,false
+0069a260-e5f4-4809-8a8f-2b6677ebf84f,2024-03-10 10:17:00,US,partner,verified,2024-03-19 08:17:00,false
+d6c99f80-7dec-4c36-9e11-ab3bed0ed560,2024-01-02 17:46:00,DE,referral,verified,2024-01-15 07:46:00,false
+96cdc16c-6ec2-4c60-b694-fb799eb40408,2024-08-17 01:30:00,SG,paid_search,verified,2024-08-28 21:30:00,false
+6319f0c0-facb-42c5-b038-5dde890ec1fd,2025-03-21 14:44:00,US,partner,verified,2025-03-29 20:44:00,true
+802948f8-3404-468c-af25-6a23ddcdcf23,2025-01-16 23:45:00,CA,affiliate,pending,\N,false
+a9d0cb5a-eb13-4b69-a014-47a208c0fe7a,2024-11-29 12:31:00,US,affiliate,rejected,\N,false
+ed25b2b3-d93c-4361-a1da-e3bb3aa0f2d1,2024-02-21 22:06:00,US,organic,verified,2024-03-02 17:06:00,false
+72375471-cb3c-43cf-a92b-67740f9e4a74,2024-03-20 10:30:00,US,referral,pending,\N,false
+5458776a-4f42-4b83-bef3-d21d225a15aa,2024-02-11 18:54:00,CA,paid_search,verified,2024-02-23 05:54:00,false
+6dd5665d-1f31-4456-becf-c5f817fbfd38,2025-01-23 23:55:00,US,referral,verified,2025-02-06 05:55:00,false
+e04638df-3b29-46f1-81d8-bcda14545413,2024-04-27 07:05:00,SG,partner,verified,2024-04-29 11:05:00,true
+b1023fa8-a496-42eb-b10a-28a6750a1aaa,2024-03-27 06:19:00,US,partner,pending,\N,false
+2bbad303-5306-44f5-adef-f15e78b07066,2024-07-10 21:09:00,DE,partner,verified,2024-07-19 17:09:00,false
+f499ad25-8024-4ab1-9cab-4790589249d4,2024-02-11 03:55:00,US,affiliate,verified,2024-02-25 18:55:00,false
+261965a2-154a-4673-b547-b27f1da32ce0,2024-08-25 04:16:00,US,sales,verified,2024-09-08 11:16:00,false
+7b92ffd8-6e27-4cc0-8827-c7f0056a6f21,2024-12-13 01:10:00,NL,paid_search,verified,2024-12-20 11:10:00,false
+de32ad63-47c1-4240-9e67-6a7d7e439844,2024-12-19 16:29:00,US,paid_search,pending,\N,false
+a3eba233-6c51-45b0-8304-45ab640e856d,2024-05-01 20:36:00,NL,paid_search,verified,2024-05-08 05:36:00,false
+b58dac22-e943-42b8-bf15-de63f50fcbca,2024-12-03 20:17:00,SG,affiliate,verified,2024-12-18 13:17:00,false
+f3bf14aa-81a2-4da0-9f1a-176980b6f1e7,2025-01-16 23:53:00,US,partner,pending,\N,false
+f7c359c5-b240-4faa-a630-51b6b7d481e9,2024-06-29 15:40:00,FR,partner,verified,2024-07-05 01:40:00,false
+1e6bd111-2fb9-465f-80de-520d20742372,2025-03-05 12:40:00,FR,paid_search,verified,2025-03-18 23:40:00,false
+54595e66-78af-4e47-b39c-7a41c56095da,2024-10-23 19:46:00,US,paid_search,verified,2024-10-30 04:46:00,false
+bdbfd188-5e9d-45c6-8ec9-038a79918b19,2025-02-07 01:56:00,DE,affiliate,rejected,\N,false
+e916ad06-fd7d-4655-adf3-a1116dbbaca1,2024-05-11 23:51:00,BR,referral,verified,2024-05-19 06:51:00,true
+f651f73c-9f8a-4c8a-8174-7fa86f85ae86,2025-01-21 15:55:00,NL,affiliate,verified,2025-02-05 02:55:00,false
+175c1ab6-3ce0-44c0-acb1-3c80863b2ffb,2024-07-06 10:50:00,DE,paid_search,verified,2024-07-12 03:50:00,false
+132a0586-88f2-422e-a8d5-e9751b422c26,2024-12-10 16:37:00,IN,organic,verified,2024-12-24 08:37:00,false
+c1fb5f7a-370e-4a3b-a222-5b8142303488,2024-01-14 03:56:00,US,referral,rejected,\N,false
+85c6209a-0dd7-48b8-853e-f66337f0d829,2024-11-21 22:58:00,CA,organic,verified,2024-12-05 20:58:00,false
+f375ea53-35bc-44e1-b222-6d98aa128f4f,2024-06-04 23:07:00,US,paid_search,verified,2024-06-16 12:07:00,false
+366dac3e-214b-4e25-9f1b-30703a1b1b1f,2025-01-16 06:34:00,IN,referral,verified,2025-01-19 15:34:00,false
+e498df5a-4831-4c71-84d7-542620f57bcc,2024-11-11 21:17:00,US,paid_search,verified,2024-11-19 20:17:00,false
+7928e7eb-62e6-4526-8586-4bf4ee10bde3,2024-07-04 11:43:00,CA,paid_search,verified,2024-07-18 07:43:00,false
+49dd8580-c39d-42ce-8450-24e366b9153d,2024-03-03 22:05:00,FR,affiliate,verified,2024-03-17 16:05:00,true
+30344f12-0e90-4359-afff-b95abd8d362e,2024-06-19 15:08:00,US,sales,pending,\N,false
+05a5a4a6-41e1-4647-a8a5-4d55b0054b35,2024-10-27 14:52:00,US,organic,pending,\N,false
+e24beae5-dc27-4e60-85d4-dea5e5cee941,2024-01-02 16:54:00,NL,referral,rejected,\N,false
+4cd9a39a-3420-4e0f-ac38-81c18bbc114e,2024-02-27 05:55:00,CA,partner,verified,2024-02-27 14:55:00,false
+2e2f0e8d-ee5a-4cd3-9930-16bd7599dd68,2024-01-09 13:16:00,GB,partner,verified,2024-01-18 14:16:00,false
+b333af57-2685-48a8-b33a-cf241f7d7a00,2025-02-02 19:32:00,GB,affiliate,verified,2025-02-12 12:32:00,true
+72622ccf-f244-431d-b223-bb8334a61fc1,2025-02-06 05:33:00,NL,organic,verified,2025-02-20 00:33:00,false
+845d5f14-18ea-4df8-936d-6211aa6ba699,2024-07-24 21:43:00,US,organic,verified,2024-08-03 10:43:00,false
+04f94ca5-1d00-4821-a6be-0ab6c9036d56,2024-02-03 12:17:00,DE,paid_search,verified,2024-02-16 01:17:00,false
+4e7d6475-a1ef-423b-9fc9-83c64d2c0efa,2024-09-28 17:29:00,US,partner,verified,2024-10-07 23:29:00,false
+b7578011-062e-4c7e-a886-bef96e34e4cb,2024-11-30 01:46:00,GB,affiliate,pending,\N,false
+3799849b-7a12-4726-8358-09d749720f9a,2025-02-27 22:25:00,US,paid_search,verified,2025-03-02 00:25:00,false
+1f6472fc-ea3d-4d02-8ef6-eb5401c11507,2024-03-20 05:59:00,BR,organic,verified,2024-03-22 05:59:00,true
+b76a0de3-6d79-4efe-8361-8b2212402cd8,2025-01-13 19:51:00,DE,referral,verified,2025-01-15 03:51:00,false
+3d767e65-3ad8-45e9-b9d7-0b4113cc3958,2024-03-03 21:22:00,IN,paid_search,pending,\N,false
+e66be2d7-8b9a-4813-b415-edd2f1e46a41,2024-01-27 17:38:00,DE,organic,verified,2024-01-30 00:38:00,false
+3b17945f-dc22-4019-9c8e-c6b4b84e610f,2024-04-24 11:22:00,CA,partner,pending,\N,false
+ac659dea-3dd9-463c-834e-3c3ec88b3570,2025-02-17 21:54:00,FR,referral,verified,2025-03-03 05:54:00,true
+722a4dcf-9449-436c-a4f4-b72dfc1ee8f8,2024-12-03 06:17:00,AU,paid_search,verified,2024-12-09 03:17:00,false
+fd066a02-4751-4648-84bf-331228239ff1,2024-01-04 13:55:00,CA,organic,verified,2024-01-18 15:55:00,false
+c136bab8-881f-48f3-b74c-faf91fa525bf,2024-01-16 10:47:00,CA,paid_search,verified,2024-01-24 12:47:00,false
+fe734fe1-2278-4f02-a01d-ae3199ec3ccd,2025-01-04 18:49:00,DE,affiliate,rejected,\N,false
+c8c9f9aa-8ded-4669-93bf-ca79f1276954,2025-01-22 03:03:00,GB,paid_search,verified,2025-01-28 00:03:00,false
+fdb733cf-4c8e-4248-b9d8-f5663a15be03,2024-07-31 16:13:00,CA,organic,verified,2024-08-03 04:13:00,false
+ef1d8783-69ff-4868-a0c3-6cecc378b16c,2024-10-30 23:33:00,US,affiliate,verified,2024-11-01 00:33:00,true
+114ca653-db35-4cc7-a8b8-55a34db7b115,2024-04-14 17:13:00,US,organic,verified,2024-04-20 05:13:00,false
+27a7dc87-6c42-4d4f-886a-416fd8d329c3,2024-08-08 13:08:00,GB,sales,verified,2024-08-13 12:08:00,false
+afd5f84d-ea7c-4284-a879-e589eff5bfc1,2024-02-06 20:55:00,US,affiliate,verified,2024-02-16 05:55:00,false
+41a4d405-a52b-4ad3-b2f9-0ffa7d099eb9,2024-10-21 21:36:00,CA,organic,verified,2024-11-04 14:36:00,true
+9d0edf87-598d-42a0-b2cd-ff1a4e9c1e6f,2024-06-15 13:51:00,GB,partner,rejected,\N,false
+278aca2c-627f-45f0-b414-46b60184ed55,2024-08-11 11:15:00,GB,paid_search,verified,2024-08-20 02:15:00,false
+61642cae-1f62-4a9b-9c97-71af30cc30a9,2024-06-22 15:21:00,GB,organic,verified,2024-06-24 08:21:00,false
+804decc1-cb93-45b0-b262-1417c9092299,2025-02-01 19:22:00,BR,organic,verified,2025-02-15 15:22:00,false
+f6a49191-6ddc-48bd-a5aa-6a2ff6d5f808,2024-04-11 13:38:00,US,affiliate,verified,2024-04-25 14:38:00,false
+9ce659cd-c21c-499f-aa4e-5c4397734a5f,2024-08-26 02:48:00,IN,referral,verified,2024-09-09 16:48:00,false
+5d5282db-c607-4284-ab44-1e5e582b1ca4,2024-11-15 18:55:00,US,paid_search,rejected,\N,false
+61df552a-7fdf-4305-bec0-9a0bb497df50,2024-11-19 17:50:00,CA,organic,verified,2024-11-20 23:50:00,false
+fddd9586-9bd1-4fb6-a141-d884c82570b0,2024-01-20 09:23:00,US,sales,pending,\N,false
+6147e632-d7d0-4325-8810-3fef9e3303dc,2024-11-11 03:32:00,DE,partner,verified,2024-11-23 14:32:00,false
+a68f0eea-fcb5-4d01-8fc0-38f154798a3d,2024-08-19 02:41:00,GB,organic,verified,2024-09-01 01:41:00,true
+c1c8ca4a-7a7d-442f-9b16-956246f1f0fa,2024-02-22 18:45:00,US,organic,verified,2024-03-07 14:45:00,false
+0ed1366e-78e2-4037-8042-db571de1209a,2024-08-13 00:33:00,CA,paid_search,verified,2024-08-20 20:33:00,false
+ee958a37-875e-43c8-9ef8-8121738b9bfa,2024-06-23 05:38:00,FR,organic,verified,2024-07-06 18:38:00,true
+b97f2461-a8d6-4c10-a925-19ab84cb9f70,2024-12-13 20:18:00,NL,referral,verified,2024-12-27 22:18:00,false
+c3661889-d1a6-4a58-993d-949e98a8afe3,2024-02-12 02:42:00,US,referral,verified,2024-02-19 15:42:00,false
+747eb9c8-54f9-4a75-92a0-40dcd7105f5b,2024-03-08 03:45:00,US,paid_search,rejected,\N,false
+bfc8c416-1859-49c9-9354-9fbe70963eba,2025-02-20 12:42:00,IN,organic,verified,2025-03-07 04:42:00,false
+f48ae9af-2bfe-462e-a27e-ff26a756c2dc,2024-09-17 19:01:00,IN,paid_search,verified,2024-09-21 17:01:00,false
+e37a6731-c799-4895-b9c5-45362477e71b,2024-04-08 15:08:00,BR,organic,verified,2024-04-15 00:08:00,false
+9c384b00-7ce5-4386-9df0-32cc060db076,2025-03-04 07:56:00,US,partner,verified,2025-03-18 11:56:00,false
+d5a0a7ed-66f8-4804-ad84-73c4deb3dc19,2024-07-11 12:10:00,SG,sales,verified,2024-07-26 08:10:00,false
+1ea79c5b-c296-41bf-b5f3-6a198c5922f7,2024-08-12 09:26:00,NL,referral,verified,2024-08-17 12:26:00,false
+c0ca2196-0683-4180-9995-f5df456a1f50,2025-02-05 22:14:00,NL,partner,verified,2025-02-12 14:14:00,false
+e10e65fc-e5af-4d96-95b1-2a1159d3032b,2024-04-09 19:43:00,NL,referral,rejected,\N,false
+336aa8fb-35f0-47ff-9e91-78476400426e,2024-07-15 00:33:00,BR,sales,verified,2024-07-18 12:33:00,false
+7283b3e9-32ba-45bd-bac0-5e9cb89f4cec,2024-05-08 09:41:00,DE,organic,verified,2024-05-16 09:41:00,false
+37943d87-8228-4a70-929a-a04afbe67585,2025-03-11 11:18:00,US,affiliate,verified,2025-03-14 23:18:00,false
+03f50db6-ce70-4be7-baf8-59308f778fd1,2024-08-11 10:58:00,IN,affiliate,verified,2024-08-21 02:58:00,false
+8acc9c75-fea5-4558-aba4-34e87eecf7d1,2024-07-22 00:23:00,CA,organic,verified,2024-07-23 19:23:00,false
+50586fca-95ac-4b39-bc15-9abfa7401808,2025-03-06 06:41:00,US,paid_search,verified,2025-03-09 10:41:00,false
+5953f186-57f5-448f-af73-47bfd699489f,2024-12-22 12:48:00,FR,affiliate,verified,2025-01-01 03:48:00,true
+29ed8137-2d26-4e82-af19-2ab0e9c7d5ef,2024-04-20 12:35:00,DE,paid_search,rejected,\N,false
+e24d92f8-9d7c-46a2-87d2-db6f0f0a385e,2024-05-01 17:07:00,FR,referral,verified,2024-05-10 17:07:00,true
+37de3977-a773-41fb-8a5c-9d8a6332a6f1,2025-03-04 23:38:00,GB,organic,verified,2025-03-18 12:38:00,false
+a22f8193-2eb3-402d-887b-7684d03b476b,2024-08-07 08:39:00,CA,partner,verified,2024-08-19 14:39:00,true
+bcda6c5c-9f64-4dcd-99dd-08b3b1ae0bf6,2024-07-03 10:33:00,DE,paid_search,verified,2024-07-14 07:33:00,false
+24036ae2-81a6-493d-810c-c8572187bf2f,2024-11-21 20:23:00,CA,organic,verified,2024-11-22 06:23:00,false
+3b0f556b-c685-4bb9-a5af-7144d748d039,2024-12-03 04:06:00,US,paid_search,verified,2024-12-10 08:06:00,false
+04837cfd-af6e-4417-b5b6-a932a6ff5244,2024-11-25 13:53:00,NL,referral,verified,2024-12-05 12:53:00,false
+8daa1262-70d1-4487-8eb8-46fc76887ac6,2024-03-10 10:45:00,US,organic,verified,2024-03-20 06:45:00,false
+bbc58741-16f1-412c-bd8c-8c669b687cee,2025-03-29 09:20:00,GB,affiliate,rejected,\N,false
+88604038-9a9c-4360-ba8b-0164b4a5dd8b,2024-05-09 09:48:00,CA,partner,verified,2024-05-15 13:48:00,false
+5786dd43-cef9-43e6-bf5b-79d8d68828bc,2024-06-18 16:07:00,GB,paid_search,pending,\N,false
+ef53ebb0-eff1-4943-80b6-a98f22635af1,2024-07-16 18:11:00,CA,partner,verified,2024-07-27 10:11:00,false
+8b8f1542-c1a9-4320-bdf5-a5316d6fa2b5,2024-02-13 07:27:00,NL,organic,verified,2024-02-26 05:27:00,false
+0cca0119-1c9a-4d0f-9582-22cef937b2d3,2024-02-22 10:20:00,GB,partner,verified,2024-02-29 00:20:00,false
+0078c76e-2954-4cf9-8fde-525e0ebd3377,2024-08-15 19:28:00,FR,paid_search,verified,2024-08-23 09:28:00,false
+63b0ca12-8fcf-4464-b8fe-10d3ea6cca6a,2025-02-09 09:04:00,CA,sales,verified,2025-02-18 02:04:00,false
+2e9ae555-6311-455c-9d24-160c81c0d8ff,2024-01-16 12:54:00,US,organic,verified,2024-01-25 22:54:00,false
+ea332d51-f270-4264-836b-8b4970792a1c,2024-07-06 19:24:00,US,organic,rejected,\N,false
+139c9c53-9135-4732-af4c-abea5b776d94,2024-07-08 19:28:00,US,paid_search,verified,2024-07-21 02:28:00,false
+6e7a4411-ef5b-4747-8161-2b1511fc3185,2024-05-22 15:07:00,GB,paid_search,verified,2024-05-26 16:07:00,false
+63a154fd-11a7-444b-abeb-0310b87bfd77,2024-05-14 16:45:00,US,affiliate,verified,2024-05-27 19:45:00,false
+7d218b14-2cf0-4d6f-8fa3-1decce881a07,2024-03-03 12:54:00,IN,paid_search,verified,2024-03-07 06:54:00,true
+22564a0d-f9fa-4b27-8fb3-ae9e47c9bfaf,2024-12-15 18:42:00,DE,paid_search,verified,2024-12-17 05:42:00,false
+0f761a3d-6147-4280-b450-bbbe90522402,2024-03-22 06:45:00,FR,partner,pending,\N,false
+d53e6505-ec4c-4a79-88ee-1d58bd407480,2024-03-03 14:50:00,US,referral,verified,2024-03-14 04:50:00,false
+e38efa50-8e60-4358-9d37-7753fcb5f229,2025-02-16 01:08:00,US,paid_search,verified,2025-02-17 23:08:00,false
+1a069787-8484-4ea2-bd5d-db42618c6d0e,2024-09-03 00:26:00,US,affiliate,verified,2024-09-15 08:26:00,false
+8013ac04-7f73-4c14-b364-3e6784dcc3b0,2024-08-18 22:43:00,IN,partner,verified,2024-08-21 17:43:00,false
+b35122df-e51e-4206-8f94-831721808568,2024-04-03 12:27:00,BR,referral,verified,2024-04-04 18:27:00,false
+8b9be908-20b9-4e29-9faf-d55f48925dc1,2024-03-23 18:59:00,IN,referral,verified,2024-03-31 05:59:00,false
+9d3d5edb-7b11-4b0e-bb0a-cc6bc4f2d7b4,2024-02-10 16:12:00,US,referral,verified,2024-02-22 12:12:00,false
+16821e69-6d01-4ff2-a696-84b2c9a988d4,2024-02-18 00:41:00,US,referral,verified,2024-03-01 11:41:00,false
+2d77cc29-2035-48ee-ba9c-174936828904,2024-11-05 18:53:00,US,sales,pending,\N,true
+ecf07714-8494-427a-b1c9-2a4811095773,2024-11-25 02:16:00,CA,referral,verified,2024-12-07 08:16:00,false
+f4d16b9b-7877-477e-8c12-593c75f15eaa,2024-11-18 01:18:00,GB,sales,verified,2024-11-24 13:18:00,false
+65cfca32-237d-4f37-9147-c2ac54f44793,2024-06-01 22:04:00,GB,referral,verified,2024-06-05 08:04:00,false
+edf9ee26-21b6-4b50-8cae-3830503509ba,2024-11-06 12:20:00,US,affiliate,pending,\N,false
+6b80ca2b-9c84-4724-9ddf-182730cb5a70,2024-07-23 12:48:00,US,organic,verified,2024-08-04 13:48:00,false
+0a463cca-f7fb-452c-b90b-67bdad7f02d6,2024-08-18 15:09:00,IN,sales,verified,2024-08-24 21:09:00,false
+abe1cde3-9e3b-4e06-95b2-2689ac5218e4,2025-03-19 13:52:00,AU,organic,verified,2025-03-31 22:52:00,false
+fb8edd1a-86f2-42a9-bd6e-c545ef88959a,2024-09-20 22:31:00,GB,organic,pending,\N,false
+7082da61-6454-4c20-87da-42fe613e14c2,2024-08-22 15:13:00,US,referral,verified,2024-08-23 17:13:00,false
+cd84f6d8-539a-4ae7-bebd-c5744d5bb10d,2024-12-01 05:30:00,BR,paid_search,verified,2024-12-01 11:30:00,false
+5658da76-d77f-4907-b84d-ab3bb4b8c638,2025-01-07 19:48:00,CA,referral,verified,2025-01-08 20:48:00,false
+4db016dd-6723-485d-8521-2495ee29374a,2024-10-10 17:04:00,SG,organic,verified,2024-10-20 09:04:00,false
+c64789dc-6958-4971-8ae3-c4b4c01489ef,2024-12-15 03:07:00,CA,partner,verified,2024-12-17 06:07:00,false
+0989e453-67c4-454f-8e8f-5121ef3f6aad,2024-07-06 12:12:00,GB,organic,verified,2024-07-15 03:12:00,false
+cb5a6601-a642-4a5d-a22c-e5c9796a8a64,2024-06-19 23:33:00,IN,organic,verified,2024-07-02 23:33:00,false
+79ae19d0-68a2-4e2c-b687-240ba2087cdf,2024-06-12 13:25:00,AU,paid_search,rejected,\N,false
+24cf1a3c-c048-4704-9cf0-6662d24255f2,2025-03-01 00:34:00,US,sales,verified,2025-03-13 02:34:00,false
+7ef4ba51-826f-49f7-9f45-a4d37655d98f,2024-12-10 11:26:00,FR,referral,verified,2024-12-25 05:26:00,false
+778ac7b9-ae1d-4c4a-9cb7-56fca46f1f5b,2024-12-02 02:36:00,DE,organic,verified,2024-12-03 06:36:00,false
+a08c0b68-8a9f-4b7d-b4ab-46f930e746ea,2024-11-13 20:09:00,US,referral,pending,\N,false
+1c3d691a-7b89-4003-a060-9e14f9170359,2024-04-07 08:28:00,CA,organic,verified,2024-04-10 15:28:00,false
+f7304fa3-7d05-4057-a3dc-365886904318,2024-11-09 23:55:00,AU,partner,pending,\N,false
+6b727006-6a72-45d1-b901-a862cf045e75,2024-10-14 18:42:00,US,organic,verified,2024-10-22 20:42:00,false
+58e70288-d991-441c-8d6e-2832e0369a63,2024-06-25 01:22:00,FR,partner,verified,2024-07-09 15:22:00,false
+e38cd2a0-f4a5-4ba9-8379-1e52ed5935fb,2024-04-08 15:17:00,IN,affiliate,verified,2024-04-13 12:17:00,false
+8b907caf-894e-4154-bb18-e78be17c95b2,2024-12-26 14:44:00,GB,referral,verified,2025-01-02 10:44:00,false
+0c830d73-e004-4940-917c-26df5147847c,2025-01-04 16:18:00,DE,affiliate,verified,2025-01-19 04:18:00,false
+f616f326-4b6f-44da-8bc2-0b3e2efffb57,2024-06-25 12:18:00,CA,paid_search,verified,2024-06-27 06:18:00,false
+be9accb1-c24b-4b47-bd5c-70fddfd6f233,2024-09-02 14:12:00,US,referral,pending,\N,false
+e53cae24-5822-4e0f-9235-7d40df97e6ea,2024-02-26 03:47:00,US,affiliate,verified,2024-03-02 09:47:00,false
+5d6626ca-3179-4b21-8278-855a39d8d42f,2024-04-29 09:06:00,US,partner,verified,2024-05-09 12:06:00,true
+e71081cf-b0f8-4820-8ff7-80834c52ce13,2024-10-08 13:26:00,GB,organic,verified,2024-10-18 18:26:00,false
+9c930236-fea5-4f97-96eb-0109aa1e8bf0,2024-06-13 17:41:00,FR,organic,verified,2024-06-15 16:41:00,false
+f1eefebc-38e9-492b-ac66-42f553c4eefc,2025-03-11 09:58:00,CA,sales,pending,\N,false
+8fe77db5-2b72-4fe7-9255-7540aac8e987,2024-01-19 20:50:00,IN,organic,verified,2024-01-26 02:50:00,false
+11ad06c3-b245-4358-ad71-f26d6bbc6818,2024-02-24 18:18:00,DE,referral,verified,2024-03-09 12:18:00,false
+ba3a0944-e1d7-430e-8407-deeedec914f3,2025-03-12 00:29:00,US,partner,verified,2025-03-14 11:29:00,false
+405c49ea-c16c-48c4-8f2c-7df4986c5e34,2025-01-02 13:00:00,DE,partner,verified,2025-01-08 22:00:00,false
+e6db4519-f3e2-42a3-91cd-2132c0daaf7f,2025-03-15 04:57:00,GB,organic,verified,2025-03-24 08:57:00,false
+07cd97bd-1323-4370-8cf4-354616fc33e1,2024-04-04 12:30:00,US,paid_search,verified,2024-04-09 21:30:00,false
+10503ad4-70cd-47c7-b5e7-e6e4d1887ea2,2024-05-16 18:19:00,US,referral,verified,2024-05-29 01:19:00,false
+b9c58e8e-36c8-4287-8b76-1729df98b62c,2024-02-02 05:07:00,CA,referral,verified,2024-02-05 16:07:00,false
+b742fcc5-93ce-4cda-b45f-e830be1fe1e5,2024-12-26 17:44:00,CA,organic,verified,2025-01-02 02:44:00,false
+69aae054-48be-4922-8348-9180918cabb7,2024-09-01 12:29:00,CA,partner,verified,2024-09-14 12:29:00,false
+e504fa51-6d90-4a71-9c01-46e679485823,2025-01-23 01:51:00,SG,partner,verified,2025-01-27 18:51:00,false
+07e89b53-60ee-4a9a-9f83-abe24dbf4df4,2025-02-07 10:33:00,US,referral,verified,2025-02-15 05:33:00,true
+33c0cd87-ed3c-4620-b43a-f7f6552fd2c0,2024-10-08 00:12:00,US,sales,verified,2024-10-11 06:12:00,false
+7bed10bf-8e96-4486-8299-70c616b39e2e,2024-12-14 14:45:00,IN,paid_search,verified,2024-12-16 14:45:00,true
+75eadfc9-9bc3-43e6-817b-ac12291b4a97,2024-03-09 00:26:00,DE,partner,verified,2024-03-10 07:26:00,false
+0fdee3c5-189d-463b-9019-dbe59c2503a6,2024-01-12 20:16:00,SG,referral,pending,\N,true
+8f393a65-8aa6-4f46-b7b3-176ae5de54d7,2024-06-26 06:04:00,IN,organic,verified,2024-06-27 14:04:00,false
+38cd6d52-eebb-49f3-b76d-1b2a8d376312,2024-01-17 17:26:00,SG,affiliate,verified,2024-01-20 16:26:00,false
+d73b6d63-a5eb-4d46-8d25-8bb94905d2cd,2024-08-03 19:57:00,CA,partner,verified,2024-08-11 22:57:00,false
+74e273d6-09ee-4cbb-93de-358918b6a683,2024-10-03 12:41:00,US,affiliate,pending,\N,false
+f292ac91-0344-4c36-8f4b-2754eaf714c1,2024-03-07 07:14:00,SG,affiliate,pending,\N,false
+6da62282-d58f-4f8f-922c-0650938a2988,2025-01-04 01:27:00,US,paid_search,verified,2025-01-09 00:27:00,false
+44a48089-6dca-4f46-bca0-af34601a785d,2025-03-25 07:48:00,CA,partner,verified,2025-04-08 11:48:00,false
+8c1fc4a4-64d1-45f2-ad5e-ec9dd515952d,2024-01-09 15:13:00,US,referral,verified,2024-01-22 09:13:00,false
+10eb1eec-cdc2-49bb-9fdf-5dad12b82571,2024-01-25 15:47:00,US,organic,verified,2024-02-04 01:47:00,false
+ecff2a37-b431-4211-a79a-08284f12a48b,2024-01-29 12:32:00,US,affiliate,rejected,\N,false
+afedc29d-97c6-4035-ad13-30e444ee8ea5,2024-10-23 03:49:00,US,sales,verified,2024-10-30 01:49:00,false
+72269254-e5b6-4225-9cc9-837c036257fb,2024-09-23 15:26:00,DE,referral,verified,2024-09-25 00:26:00,false
+5608a486-e9e7-44b1-b4b8-8e946a4ab3bd,2024-03-31 04:43:00,US,paid_search,verified,2024-04-10 19:43:00,false
+b0517e30-17f6-404b-9210-2716a16261b9,2024-07-15 00:20:00,US,paid_search,verified,2024-07-23 19:20:00,false
+3f30e53a-3d6e-4785-a8b8-6d66fb2855fe,2024-08-30 15:54:00,BR,affiliate,verified,2024-09-02 18:54:00,false
+be6740e8-2a8f-4ac4-b07f-65fae512ce0f,2024-08-02 01:33:00,US,paid_search,verified,2024-08-07 07:33:00,true
+17db976a-57dc-41d3-8760-d3f622e24b0c,2024-08-18 19:05:00,US,paid_search,verified,2024-08-22 22:05:00,false
+fc077b3b-fbfc-4072-ad8e-02cea397495f,2024-01-21 10:12:00,DE,partner,pending,\N,false
+d1100983-0496-47b1-9d56-38563b1a5bfa,2024-04-16 18:19:00,US,affiliate,rejected,\N,false
+f7eb5c0c-a50b-4f01-b882-3a0170675a92,2024-03-02 07:48:00,AU,partner,verified,2024-03-07 13:48:00,false
+e8f402dc-1944-4bf3-a804-5a5f04c36a82,2024-05-03 01:20:00,GB,referral,verified,2024-05-11 05:20:00,false
+9ac87ce6-5b9f-4dba-887c-f0efb3bdc338,2024-07-04 00:56:00,BR,partner,verified,2024-07-06 04:56:00,false
+ebad6b87-986a-47a7-9e00-397d698e5309,2024-06-12 14:23:00,DE,organic,verified,2024-06-13 15:23:00,false
+673543ab-4ed5-41cb-8788-f7d40b639637,2024-05-14 01:59:00,US,organic,verified,2024-05-23 00:59:00,false
+be43c63e-ddc1-451c-b0fe-124237b551d5,2024-10-18 15:31:00,US,partner,verified,2024-11-02 07:31:00,false
+bc1f5241-aaf6-4c4e-afa6-5cee8fe9a4f9,2025-01-06 04:47:00,AU,paid_search,verified,2025-01-09 20:47:00,false
+609983b1-bf23-4cd8-88f0-c2d514857b28,2024-10-06 23:11:00,DE,referral,pending,\N,true
+1eba0274-9f85-4490-8958-473bb0260776,2024-01-18 10:52:00,CA,sales,verified,2024-01-18 15:52:00,false
+c4d57e5e-2f3f-4df8-8c2f-d03e14b3b77e,2024-12-28 12:00:00,CA,referral,verified,2025-01-07 07:00:00,false
+a8972c8e-8948-4691-bbb3-dc977e6993fb,2024-11-11 23:42:00,DE,paid_search,verified,2024-11-12 04:42:00,true
+2bf1893c-2671-47f5-b83a-77a98560b301,2025-01-04 16:34:00,US,sales,rejected,\N,false
+82cb7754-25cb-4d69-9044-9a9c4f47cacc,2025-02-16 13:06:00,GB,organic,pending,\N,false
+6cba8ff9-f98c-4f05-933f-3a88ed23344d,2024-05-09 19:17:00,US,affiliate,pending,\N,false
+fef4e1e3-5968-499d-acdf-e7612eb11082,2024-05-05 06:14:00,FR,sales,verified,2024-05-07 01:14:00,false
+328a85ae-c153-4f3a-9ef7-bf69616f6d33,2024-02-17 20:24:00,US,organic,verified,2024-02-28 01:24:00,false
+01bda0a6-6f3a-4069-b15d-52624f7a139e,2024-09-12 21:41:00,DE,sales,pending,\N,true
+25183f68-4c54-42a3-91a2-1944618a96cd,2024-09-27 09:14:00,IN,referral,verified,2024-10-12 05:14:00,true
+34d87b7a-092f-4b4f-a58b-76061062f596,2024-02-09 05:59:00,DE,organic,verified,2024-02-20 21:59:00,false
+2154a5d3-eac0-4331-823d-b42fb74c184c,2024-06-10 08:13:00,IN,paid_search,verified,2024-06-18 21:13:00,false
+90d5b043-0576-4469-b592-f8094d71c030,2024-10-17 20:43:00,US,partner,pending,\N,false
+306dcf45-c558-428c-82c1-ad9af9a685f7,2024-12-19 07:05:00,US,paid_search,verified,2024-12-26 18:05:00,false
+3dc3ea7f-ad30-4ae2-a84c-39df5fb49d5d,2024-06-24 03:49:00,CA,partner,verified,2024-07-06 21:49:00,true
+27d88958-41b7-4ec0-bdc1-9d5ff38aafbb,2024-05-19 22:31:00,IN,paid_search,verified,2024-05-31 19:31:00,false
+bde3ccd1-7ce5-4fa0-954f-e519077e03ea,2024-12-04 20:05:00,BR,partner,verified,2024-12-11 05:05:00,true
+cf272c37-b0e0-42eb-835b-7d31aa5a14a1,2024-03-19 20:45:00,US,paid_search,pending,\N,false
+dbe1a555-2ed5-4086-8eca-47ea573e2f0e,2024-02-16 08:19:00,US,organic,verified,2024-02-22 04:19:00,false
+97a175ad-22c8-4ca1-b603-ab37b3bcb7be,2024-10-13 01:32:00,US,referral,verified,2024-10-13 16:32:00,false
+8ab07e17-afb7-469d-be54-1d0a46b37396,2025-02-05 18:55:00,CA,partner,verified,2025-02-12 01:55:00,false
+22333d55-6c06-420b-933f-78c9528f1349,2024-10-13 15:36:00,CA,organic,verified,2024-10-28 07:36:00,false
+c6228548-5795-472a-ac12-0e430a9fbe12,2024-09-09 12:04:00,GB,referral,verified,2024-09-15 11:04:00,true
+4b6c85bb-2167-4ebc-9839-3b02ff6ae6de,2024-05-08 15:46:00,FR,paid_search,verified,2024-05-21 09:46:00,false
+7125306d-8262-4173-a153-10479b797adf,2024-01-04 20:21:00,CA,sales,pending,\N,false
+f8534698-8f0b-4e39-b5ee-3c1c8a094aae,2024-08-09 04:38:00,DE,partner,verified,2024-08-16 02:38:00,false
+4b856c38-54df-4fbe-9b3f-0ce62b57f22b,2024-03-31 20:20:00,FR,affiliate,verified,2024-04-15 17:20:00,false
+ed70dd51-95ed-4734-a633-2244c1cd194a,2024-06-15 20:17:00,CA,organic,pending,\N,false
+fec43c1d-aa5e-49f2-a982-ba81ea618c4e,2024-10-31 01:11:00,US,partner,verified,2024-11-11 20:11:00,false
+dca30a52-d375-4a11-9d15-24039033fd9b,2024-04-17 22:51:00,US,sales,verified,2024-05-02 18:51:00,false
+90c2138f-6a3d-4e97-bc77-fb3133fde114,2024-12-10 23:08:00,US,organic,verified,2024-12-16 04:08:00,false
+2145e0cc-6cca-4e1b-a377-2f0c1e84b4c4,2024-07-12 10:28:00,GB,paid_search,rejected,\N,false
+6d8ae41f-a64a-4361-88da-c949c9817b4f,2025-03-22 06:26:00,AU,sales,verified,2025-03-30 00:26:00,false
+6703904c-d288-4aa0-b03c-aadaeda676cf,2024-02-13 11:49:00,CA,referral,verified,2024-02-27 17:49:00,true
+fef586e3-0722-4eba-8100-de4c415710d4,2024-11-27 05:41:00,NL,paid_search,verified,2024-12-04 08:41:00,true
+01f27ff3-5074-4bc6-9774-e5cdffc189fd,2024-05-12 15:32:00,DE,referral,verified,2024-05-24 14:32:00,false
+69bfd22f-1538-4336-b4b8-4e30acb3d48a,2024-07-19 22:49:00,GB,paid_search,verified,2024-08-03 17:49:00,true
+117ce5b5-72f3-4d56-be6d-6da699d78125,2024-02-23 17:26:00,US,sales,pending,\N,false
+6eda6afd-6850-4cd4-bd60-3e05acdac641,2024-06-27 17:21:00,GB,paid_search,verified,2024-07-02 04:21:00,true
+52972472-732a-41ba-824d-7d98eb9804ef,2025-01-05 06:28:00,US,partner,verified,2025-01-11 17:28:00,true
+47b7bf29-b3ab-4757-b1e7-8757f73460d1,2024-06-25 04:06:00,IN,partner,verified,2024-06-28 18:06:00,false
+a50a2b7a-f251-497d-899c-4e94f849c91d,2024-10-09 13:21:00,US,paid_search,verified,2024-10-19 11:21:00,false
+3b691f79-e98d-4185-b18b-2eb5e7f321c9,2024-11-24 05:27:00,IN,paid_search,verified,2024-12-07 09:27:00,false
+6ba021a2-5a98-4f7b-8284-eb4aa1c66dab,2024-01-04 06:13:00,DE,partner,verified,2024-01-05 16:13:00,false
+04057f93-9193-4f7a-ab80-835b1f3a1e74,2024-07-06 18:12:00,FR,referral,verified,2024-07-12 10:12:00,false
+e59578a1-262a-42b6-84da-5d20db52ce4e,2024-06-10 03:24:00,US,paid_search,verified,2024-06-22 17:24:00,false
+cd714b5a-b689-44d8-856a-11d239c35582,2024-03-30 05:45:00,IN,referral,pending,\N,false
+90e19c2d-752c-482b-a9ba-5d1f40f79657,2024-06-09 11:15:00,CA,organic,verified,2024-06-13 10:15:00,false
+8f9ed621-c18b-4700-963f-9fb6ff060c9f,2024-11-01 12:36:00,GB,referral,verified,2024-11-05 13:36:00,false
+e0183d09-9d92-4da6-a71e-1e9ec7f256d0,2024-03-30 01:10:00,US,sales,verified,2024-04-02 02:10:00,false
+40d3a96c-dfd5-4064-a6e1-64585adf8b19,2025-03-19 19:00:00,BR,affiliate,verified,2025-03-24 00:00:00,false
+3e3fc880-295f-4de3-8cbe-ae575f2679f4,2024-09-10 21:43:00,GB,organic,verified,2024-09-20 10:43:00,true
+cdd4d1be-b387-4771-9567-390dddfab087,2025-01-24 15:18:00,DE,organic,verified,2025-01-29 12:18:00,false
+0f07995b-4f24-435a-bedf-26fc3ace066b,2025-01-15 23:35:00,US,partner,verified,2025-01-28 06:35:00,false
+f520a8f7-91a6-41e6-a378-0b9a2ac649b7,2024-07-07 01:52:00,DE,affiliate,verified,2024-07-16 12:52:00,true
+1c60b75c-ff77-4a5b-a3f6-12959456c0bb,2025-03-01 04:48:00,GB,paid_search,verified,2025-03-01 22:48:00,false
+dbc8a950-b3fd-42ab-8cf2-8dd3a53c804e,2024-08-12 11:49:00,US,partner,pending,\N,false
+b24fdaf4-bdf6-4502-84d3-04b59b19e871,2025-03-17 06:39:00,FR,partner,verified,2025-03-20 20:39:00,false
+144f5b68-a4c7-4319-aebc-319bc9aaf837,2025-02-16 09:36:00,DE,organic,verified,2025-02-22 10:36:00,false
+7ebdd353-bc93-4590-85c3-4af772867721,2024-05-29 17:36:00,NL,partner,verified,2024-06-09 18:36:00,true
+00910a03-d261-45df-b739-a542480aea71,2025-01-19 21:58:00,BR,organic,verified,2025-01-25 20:58:00,false
+25105bb2-a6f2-4197-804c-678f8837016d,2024-05-07 12:45:00,SG,partner,verified,2024-05-12 20:45:00,false
+d715838e-783d-4331-ac82-96f01f988ba2,2024-10-23 04:17:00,GB,referral,verified,2024-10-31 06:17:00,false
+29a6195b-6718-48d5-9467-8338c70135a2,2024-02-17 20:32:00,IN,paid_search,verified,2024-03-03 17:32:00,false
+f6fbba30-3a60-45e0-9148-daa6451e2f8f,2024-06-17 02:00:00,BR,organic,pending,\N,false
+29c0bc9c-80ba-4416-a445-32462af6c3e7,2024-11-22 05:44:00,BR,paid_search,verified,2024-11-23 15:44:00,false
+309e8ca4-3455-497c-83fb-82a64c0fc007,2025-02-26 14:31:00,US,referral,verified,2025-03-04 17:31:00,false
+cb5b5a6c-6933-4b0d-bf25-e88e8c275735,2024-09-05 18:57:00,US,referral,verified,2024-09-06 20:57:00,false
+953385d5-4044-4d5a-984f-28a079c70eb9,2024-01-09 11:59:00,GB,organic,pending,\N,false
+8a8e2f2c-8e99-44d8-8e92-39f5ec49e5b0,2024-04-14 06:58:00,US,sales,verified,2024-04-28 04:58:00,false
+f25281ce-0b5c-4b97-abf9-4b7ff58a8572,2024-02-18 04:23:00,FR,referral,verified,2024-02-26 04:23:00,true
+25f8b5cc-69cb-4111-b003-33f0b9be2b88,2024-11-16 17:46:00,GB,organic,verified,2024-11-21 18:46:00,true
+f121bbf8-8811-4f65-8bd1-813b97e42c43,2024-04-19 23:04:00,GB,paid_search,verified,2024-04-24 20:04:00,true
+1c1f9b9b-d8b1-40bf-9cd7-3bce747e7393,2024-06-24 11:55:00,GB,organic,verified,2024-06-27 08:55:00,true
+cd8c3e72-e927-441d-a0d4-386c86ae202a,2025-02-16 11:06:00,US,partner,verified,2025-02-22 22:06:00,false
+9d7c0dd1-94fe-4d8d-933f-cc97d9a97af0,2024-03-10 04:43:00,DE,referral,verified,2024-03-21 13:43:00,false
+7f974b0e-1078-4797-be56-dbaf9782aef8,2024-06-29 07:13:00,IN,referral,verified,2024-07-02 14:13:00,false
+c9b1b33b-ccec-4bae-b68b-acbe89bfd989,2024-04-21 10:57:00,DE,paid_search,verified,2024-04-24 03:57:00,false
+b6de7db2-21a2-4eeb-ba1d-afe55492d608,2024-06-10 12:15:00,US,referral,verified,2024-06-12 09:15:00,false
+b0e0a786-fa65-49fd-b50f-b91267e6805d,2024-05-26 06:01:00,FR,paid_search,pending,\N,false
+b213b217-19ac-42f4-a120-5edaef3f70f8,2024-09-17 14:47:00,US,affiliate,verified,2024-10-01 10:47:00,false
+cffffae4-c917-49df-a844-fc9af8bf7b5c,2024-09-10 20:07:00,DE,referral,verified,2024-09-24 12:07:00,false
+6fa4249e-f01d-4034-80ec-86db20618ca8,2024-07-03 18:08:00,GB,referral,verified,2024-07-15 23:08:00,false
+dfacc52e-96fe-43a8-b4c2-d969ad661ffd,2024-08-29 10:01:00,US,organic,verified,2024-08-29 19:01:00,true
+e0845e86-5276-4936-9cb3-88a2ae051ddd,2025-02-08 20:32:00,SG,paid_search,verified,2025-02-19 14:32:00,false
+e5b8e4a9-4cbc-41b0-b4b1-3e2a1a2d67f1,2024-11-24 01:34:00,US,organic,verified,2024-11-30 01:34:00,false
+9171d161-8107-49c6-ba43-c99be10b2fd7,2025-02-17 12:34:00,FR,sales,verified,2025-03-02 02:34:00,false
+32db55cc-7edb-484b-9340-1a1d244e51b5,2024-02-03 17:44:00,US,organic,verified,2024-02-08 21:44:00,false
+39a75cee-ee82-4a05-b8e3-19d4ef2eaa22,2024-08-21 03:38:00,SG,partner,verified,2024-09-04 10:38:00,true
+540b010c-ee37-4c31-a5f3-da57b82669ec,2024-12-28 12:44:00,IN,referral,verified,2025-01-08 04:44:00,false
+f20509ab-a47e-4aa1-97b2-3a2a20e764c9,2025-01-04 16:10:00,AU,organic,verified,2025-01-10 11:10:00,false
+83c3a785-d287-443c-aead-aa31c92b0668,2024-06-20 21:17:00,AU,referral,verified,2024-06-26 13:17:00,true
+9d5ffe51-f662-449f-bb66-10746ed1ff68,2024-08-22 00:23:00,US,organic,verified,2024-09-03 04:23:00,false
+924f1236-8882-4bbd-b8dc-4a5844832fe2,2025-04-03 02:43:00,SG,organic,verified,2025-04-08 00:43:00,false
+f975205f-bbb6-48ea-a4bc-0f74025423a8,2024-01-07 15:02:00,IN,organic,verified,2024-01-15 21:02:00,false
+31c12597-f41a-4e9d-95d0-d169604f7f63,2024-01-20 01:51:00,SG,paid_search,pending,\N,false
+06fe1bb4-acb5-493c-8e29-e82ae1b02efe,2024-08-02 07:20:00,DE,organic,verified,2024-08-04 00:20:00,false
+e02b31a8-835c-4a28-9bff-ae01d04c0bb1,2024-01-27 13:14:00,NL,affiliate,pending,\N,true
+2859990a-f2ea-41f5-bdbe-48102af89104,2024-08-26 17:49:00,US,referral,pending,\N,true
+cc5b3ebf-e493-4c5f-aeb7-9fa3551487b9,2024-04-12 17:36:00,AU,organic,pending,\N,false
+419dc161-706d-400d-bedc-ad5a258763cb,2024-09-09 14:46:00,SG,organic,pending,\N,true
+55f4ee6c-72d4-464a-b8d9-01c16c27c549,2024-07-28 08:14:00,BR,sales,verified,2024-08-10 23:14:00,false
+5e1d0a38-7d00-4cf0-b69d-dca31284c1be,2024-01-02 05:24:00,AU,organic,pending,\N,false
+f8be890b-43de-421e-8e22-3da9bf6e223c,2024-05-01 21:31:00,NL,organic,rejected,\N,false
+408895dc-4887-4825-b045-9a36e96ed1f9,2024-01-23 15:57:00,CA,affiliate,pending,\N,false
+f4388d94-f7b6-4a66-b3e6-da69aedaf07a,2025-01-17 10:37:00,FR,paid_search,verified,2025-01-20 08:37:00,false
+f4e13338-1261-4e2c-b769-f12af1051d41,2024-02-01 21:42:00,US,organic,rejected,\N,false
+096c71ee-b344-4f44-a1a3-f4b55ac62ee2,2025-02-14 20:44:00,US,paid_search,pending,\N,false
+7e43e195-8898-4149-add8-1d9153d1a0c7,2024-04-13 12:49:00,US,organic,verified,2024-04-15 21:49:00,false
+0502e93f-76eb-4060-bd6c-6bf43d63c4ec,2024-07-27 11:34:00,GB,referral,verified,2024-07-31 23:34:00,false
+7695d3ce-27ac-456f-9681-f570a58ee03c,2024-02-16 13:51:00,DE,organic,verified,2024-03-02 11:51:00,false
+adef6e3e-d1a4-4ee2-92db-6c6a37cc5110,2024-03-16 10:45:00,CA,organic,verified,2024-03-24 02:45:00,false
+d8c44a86-bef3-4018-aa90-2cf5871d5d41,2025-02-23 13:01:00,BR,referral,rejected,\N,false
+955ff976-1b59-4e48-84fa-a7abcddbc6a7,2024-02-18 22:06:00,US,organic,pending,\N,false
+29a4c8e1-42de-4d5a-8853-9372e17abc07,2024-04-23 12:12:00,CA,referral,pending,\N,false
+e0c6d2e6-bc35-4f05-9247-96de7c54d32a,2024-10-26 02:16:00,US,affiliate,pending,\N,false
+7f3f2c25-4a8a-497b-a945-c2df8e4de588,2024-11-26 22:51:00,US,affiliate,verified,2024-12-04 01:51:00,true
+00503d0b-4faf-4fbe-b267-873391e47666,2024-10-20 21:52:00,US,partner,verified,2024-10-31 13:52:00,false
+4fa72611-1af6-4b61-a202-7cd4754532d7,2024-04-19 13:17:00,US,referral,verified,2024-04-22 19:17:00,false
+624d17b1-63ad-42af-a456-adac3a1a4842,2024-05-31 23:26:00,GB,organic,pending,\N,false
+e64867c6-2135-4268-bc92-c88499b77449,2024-08-02 14:41:00,GB,referral,pending,\N,false
+e48866b6-0602-4fc5-9412-12674d4c838f,2025-02-10 08:24:00,CA,referral,pending,\N,false
+48ae5c06-8bd2-466f-bfd1-b64471aecceb,2024-10-17 00:20:00,US,referral,verified,2024-10-20 22:20:00,true
+c9c29b24-164b-468e-8af4-814e13bd7a69,2025-02-19 16:03:00,GB,paid_search,pending,\N,false
+8c1b1c05-bc66-4fb4-8c77-96306eeb69f8,2024-04-29 13:06:00,US,sales,verified,2024-05-04 18:06:00,false
+2e483408-a575-4be1-9221-a2d8d9a833b1,2024-01-29 15:36:00,BR,paid_search,pending,\N,false
+1bfa742f-03ea-465c-a61e-bb62f6b6155a,2025-03-08 13:11:00,BR,partner,verified,2025-03-15 09:11:00,false
+b3bbcef8-dbb0-4975-b2da-d1dee82f1e06,2024-01-16 06:44:00,DE,referral,verified,2024-01-28 10:44:00,false
+be44b23e-1b53-4cb5-ad46-8fc6e9abecc5,2025-02-18 23:34:00,US,organic,verified,2025-03-01 12:34:00,false
+9c3fcb31-81d4-4550-b294-8d0c5e07046c,2024-01-12 00:30:00,US,organic,verified,2024-01-25 04:30:00,false
+d2e8e17c-6c32-4b4f-b417-5697d0d58e4b,2025-02-14 18:03:00,AU,organic,verified,2025-02-27 08:03:00,true
+1f666a98-9c73-40d0-8004-995e4389ab2e,2024-09-26 19:04:00,CA,organic,verified,2024-10-11 00:04:00,false
+28eeb96b-82d0-414c-95a1-0b44d5489d1e,2024-03-10 13:46:00,BR,affiliate,rejected,\N,false
+aa30f0bc-ea2f-44c0-9f3e-871995c08158,2024-03-31 06:35:00,SG,organic,verified,2024-04-13 10:35:00,false
+0b5769e6-3ffc-411a-b700-d05e39a99243,2024-03-30 20:19:00,US,partner,verified,2024-04-06 04:19:00,false
+21d4f05e-2238-4087-b7c2-50729c36c607,2024-10-20 20:54:00,NL,organic,rejected,\N,false
+bdca43ca-0973-4dad-b1c0-61ec176f6d77,2025-02-19 03:14:00,IN,organic,verified,2025-02-21 10:14:00,false
+b6ffddfe-22dc-4b60-a686-eb14c39aa52e,2024-05-01 19:20:00,BR,partner,verified,2024-05-03 18:20:00,false
+c7a06499-afda-4677-a7fe-73d0f1f2b4fa,2024-06-20 22:00:00,AU,paid_search,verified,2024-06-26 07:00:00,false
+488f7d44-4412-4b38-bea0-d1b6ba430f50,2025-01-03 08:03:00,NL,affiliate,verified,2025-01-12 08:03:00,false
+ade7921a-87b6-48f4-87df-2fc545417d9f,2024-07-12 19:34:00,SG,referral,verified,2024-07-23 02:34:00,false
+d0ab9251-5a40-4495-b04d-9045ed5b9624,2024-04-25 13:28:00,US,paid_search,verified,2024-04-26 08:28:00,false
+de2aa1a7-beb7-46ea-91a4-f6f0e016a2bd,2024-02-07 18:10:00,US,organic,pending,\N,false
+7e9428ce-d3bc-4af3-b80b-cc6f6d470c47,2024-02-17 18:38:00,IN,partner,rejected,\N,false
+4e67d876-88d2-430b-b97c-531221ece546,2024-11-30 13:38:00,US,organic,pending,\N,false
+7dd0d86d-d47b-4c70-951c-efb9aa59b617,2024-04-07 21:44:00,US,paid_search,verified,2024-04-19 11:44:00,false
+37c65705-1f86-483a-a0f4-2b26c208eee4,2024-01-26 20:36:00,US,paid_search,verified,2024-02-06 09:36:00,false
+dd076986-2ea9-4101-94f7-8654feadc720,2024-05-31 05:40:00,US,organic,verified,2024-06-04 13:40:00,false
+eabd6aa2-f8e7-4591-8622-44e9eff3ff5b,2024-02-11 23:54:00,GB,affiliate,verified,2024-02-20 12:54:00,false
+c3828803-a018-4c71-ae53-ad4346e52163,2024-11-25 01:24:00,CA,paid_search,verified,2024-12-03 06:24:00,false
+9be13732-765d-4133-975a-52ce809821d2,2024-08-26 16:14:00,DE,organic,pending,\N,false
+43cd0b4c-726a-49b7-9004-397ca5526840,2024-02-19 10:42:00,CA,partner,verified,2024-03-02 01:42:00,false
+622d3b0a-37ba-4e77-b99c-63bce5efc1d8,2024-02-01 20:52:00,AU,affiliate,verified,2024-02-13 08:52:00,false
+43498bc1-39b8-49a7-bd71-2ce903e5eee0,2024-04-30 23:19:00,GB,affiliate,verified,2024-05-01 18:19:00,false
+afa8591b-5392-407d-8748-dd97530937cc,2024-12-13 03:09:00,US,affiliate,verified,2024-12-22 18:09:00,false
+a5e6e108-1606-40fc-a3e0-393fd42244e0,2025-02-17 14:08:00,NL,paid_search,verified,2025-02-19 08:08:00,false
+82ad4049-c6c4-4b94-a559-afccbe80365f,2024-11-17 12:53:00,IN,affiliate,verified,2024-11-24 09:53:00,true
+a7b69d90-3b70-4790-acd4-26fb5c8a39a0,2024-07-18 01:25:00,GB,affiliate,verified,2024-07-24 00:25:00,true
+17a7f472-1fcd-46e9-a5e5-0eb82ed2e950,2024-12-25 03:37:00,US,organic,verified,2025-01-03 03:37:00,false
+092b0b29-d5dd-4bf6-a10d-c7a7600acf79,2024-10-25 11:59:00,SG,sales,verified,2024-10-27 16:59:00,false
+60acfa26-10da-4a1f-9944-44d72e3fc27a,2025-03-25 21:16:00,DE,referral,verified,2025-04-05 07:16:00,false
+51990dc7-f9f7-42f8-b093-a5816f68a7da,2024-07-25 12:39:00,CA,paid_search,verified,2024-08-09 09:39:00,false
+11abfcff-b09f-4df6-8327-ed2ed3c630b6,2024-12-19 15:03:00,IN,organic,verified,2024-12-25 10:03:00,false
+a75af3d3-107d-4c22-a7cf-323af43e2717,2024-06-04 17:17:00,BR,partner,pending,\N,false
+f81d459a-ad2c-4883-ac23-bf4150469774,2024-04-26 12:19:00,GB,sales,rejected,\N,false
+cad690a5-bff1-43d5-9a2c-6cdaf7a5de8a,2024-08-02 03:41:00,US,sales,verified,2024-08-11 15:41:00,false
+10e384fc-3e28-487b-8cca-26d4b08ed481,2025-01-24 00:55:00,GB,organic,verified,2025-01-25 06:55:00,false
+f0cb255f-7907-41c0-836d-8acb1061dfd6,2024-09-16 20:08:00,GB,referral,pending,\N,false
+de8864f4-3263-403b-b5ba-df1eb1fbf714,2025-03-24 14:53:00,GB,affiliate,verified,2025-03-25 08:53:00,false
+16209947-2c27-4349-ab33-15ca437e6e43,2024-05-20 19:52:00,FR,organic,verified,2024-05-29 08:52:00,true
+2a66a686-58df-459f-8a99-986c7d521473,2024-07-09 23:38:00,DE,paid_search,verified,2024-07-20 03:38:00,false
+065540f1-43b4-470d-b758-42dfef064334,2025-04-02 16:47:00,US,organic,pending,\N,true
+b111528d-5acc-4694-a91e-abddc43bdd93,2025-03-14 02:49:00,BR,referral,rejected,\N,false
+5233cc58-9a73-41e8-9b53-ff6858de3a96,2024-05-18 04:26:00,US,affiliate,verified,2024-06-01 19:26:00,false
+1a80063e-54b2-46cf-98a9-ca06d5617131,2024-11-03 08:14:00,AU,partner,verified,2024-11-09 22:14:00,false
+aacdc936-c06b-4bca-bb93-729259c60076,2025-04-03 20:54:00,US,paid_search,verified,2025-04-09 07:54:00,false
+cbee85b5-47b3-403a-8b99-23c852e75f8d,2024-11-15 20:37:00,NL,affiliate,verified,2024-11-26 19:37:00,false
+8c6be9f1-7380-4245-b06b-7f5d57b65a45,2024-10-15 04:38:00,AU,referral,verified,2024-10-21 14:38:00,false
+b92a74c7-4e52-4621-8419-5cfe75952d06,2024-05-22 04:20:00,US,partner,pending,\N,false
+1fb34ec6-0639-4f91-83ad-fa7dbceac189,2024-06-01 14:09:00,IN,sales,verified,2024-06-06 19:09:00,false
+89118415-7825-44c9-b6cd-425c27f70d25,2024-11-03 20:42:00,AU,referral,verified,2024-11-06 21:42:00,false
+cd29ba9b-89d5-4f4e-b2fa-209d6842c863,2024-05-12 21:25:00,DE,affiliate,verified,2024-05-13 17:25:00,false
+bc107417-bd1d-4711-a201-acb7317fc607,2024-06-25 07:45:00,FR,referral,verified,2024-07-06 18:45:00,false
+1511edae-8cad-4924-981a-761474a2ca15,2024-07-03 00:19:00,BR,sales,pending,\N,false
+2d832e3a-aa7c-4e8f-8d1f-171b941dd7d6,2024-02-19 23:08:00,SG,organic,verified,2024-03-02 23:08:00,false
+f85bdc00-2127-4250-befa-8af95b2ed655,2024-06-21 04:05:00,SG,paid_search,verified,2024-06-26 00:05:00,false
+882b7a8f-cd43-451d-9148-0567b1055dd1,2024-06-18 19:16:00,BR,referral,verified,2024-06-28 18:16:00,false
+39a51767-f8e9-4286-aaad-65b9f328f721,2024-10-26 02:39:00,GB,sales,verified,2024-10-30 07:39:00,false
+4952b665-82c5-4a11-a74c-cb8b6bdf246d,2024-06-01 21:03:00,US,affiliate,pending,\N,false
+411705a7-6892-44c0-976d-89d6eb7f7c1f,2024-10-18 22:09:00,SG,referral,verified,2024-10-22 20:09:00,false
+65b79508-1684-47eb-9d5c-67f5c3c4f80b,2024-03-31 18:40:00,US,partner,verified,2024-04-10 11:40:00,false
+784e0f66-963f-4b19-b7a3-685179b68a8e,2025-01-26 13:31:00,SG,organic,pending,\N,false
+f88e3472-19c3-450d-be23-62d443de862e,2024-08-07 20:27:00,CA,organic,rejected,\N,false
+a51df7f4-696e-4f76-b990-ed5546438e0d,2024-07-10 08:57:00,US,partner,verified,2024-07-21 17:57:00,false
+9ece9b7c-ad22-4c70-8b4e-e5609c6030e0,2024-05-07 15:44:00,US,organic,pending,\N,false
+5f1895f0-7c99-44aa-a82b-5ddaf836891f,2024-06-05 13:04:00,US,paid_search,pending,\N,false
+a52fa338-2f50-4ba6-be3b-415eb6d1cef5,2024-11-02 00:21:00,NL,paid_search,verified,2024-11-16 17:21:00,false
+c1601112-c9dc-4d6a-b7df-75aaafd79de1,2024-07-02 14:10:00,IN,paid_search,rejected,\N,false
+26f2f452-3426-468f-a2fd-781a1b2dd87f,2025-01-07 12:13:00,GB,organic,verified,2025-01-20 03:13:00,false
+71f4b0c3-b972-42c5-a201-283e0bbdc1cc,2025-02-09 09:24:00,US,referral,pending,\N,true
+d3c4cafa-19a1-49b3-83be-5b8d1062a945,2024-01-26 05:06:00,US,organic,verified,2024-01-26 17:06:00,false
+50612f35-4547-4d9b-89ac-bbcd388160e4,2024-03-05 01:16:00,US,partner,verified,2024-03-08 09:16:00,true
+43ce3953-60b4-4057-ad20-d8a1d3b81b4f,2024-08-04 05:06:00,FR,partner,verified,2024-08-10 01:06:00,false
+49dbfcbe-54f3-495f-ba19-7274b9d3ca36,2025-04-05 11:32:00,US,partner,verified,2025-04-08 01:32:00,false
+76a81eb9-cce4-4717-8af3-8f63c0c81ea1,2024-11-07 14:49:00,NL,paid_search,verified,2024-11-18 19:49:00,false
+6ce9a54c-72de-42ae-97cd-47d0055ce4d7,2024-03-23 09:35:00,AU,referral,verified,2024-03-27 21:35:00,false
+8f5193b7-b7a6-4bc0-9dae-21152d607527,2024-01-08 05:05:00,BR,partner,pending,\N,false
+25223daf-39f9-4e23-9858-762439b5e012,2024-02-17 00:04:00,IN,referral,verified,2024-02-19 05:04:00,false
+9f583720-8023-40e2-8fdd-0534d98c73e2,2024-05-31 16:29:00,IN,sales,verified,2024-06-04 11:29:00,false
+aab24bba-1e06-412c-9c64-1f462f2c21ee,2024-12-12 18:27:00,BR,affiliate,verified,2024-12-14 20:27:00,true
+361803e5-0ae3-4a7e-bac4-510577451756,2024-03-12 05:41:00,IN,affiliate,verified,2024-03-19 22:41:00,false
+317cb144-6313-4248-9339-cf299e227ee5,2025-01-10 10:23:00,US,paid_search,pending,\N,false
+be884bf2-4691-4ca5-8391-d6ea6434cbfe,2024-05-19 20:44:00,BR,referral,pending,\N,false
+d27c8701-400c-4353-8537-ef4455fb908d,2024-02-27 12:44:00,US,affiliate,verified,2024-03-01 23:44:00,false
+8e102e20-fd39-425c-9262-e85b92d779e6,2024-10-19 05:28:00,SG,referral,verified,2024-10-27 09:28:00,false
+5a93a872-6918-4f02-a63d-71469fa4d8b3,2025-03-27 07:57:00,US,paid_search,verified,2025-04-06 18:57:00,true
+680cc9d0-cb04-4cc8-a81d-f83dbe0e27b6,2024-05-14 04:20:00,GB,partner,verified,2024-05-28 17:20:00,false
+14dcbc4b-8f7e-4dd0-9d69-53c603ab6dab,2024-04-25 05:55:00,AU,referral,verified,2024-05-06 10:55:00,false
+a4eb8e3f-87ed-4f7e-a786-0158bd8755e3,2025-01-07 15:30:00,FR,organic,verified,2025-01-22 03:30:00,false
+0ffd25b7-1243-4aa7-852f-f6f82d36a17f,2025-04-02 03:03:00,GB,referral,verified,2025-04-05 13:03:00,false
+491399e5-7bec-4fe7-91aa-127d120678fd,2024-03-25 10:48:00,US,organic,verified,2024-03-30 15:48:00,false
+4a8f07a0-23be-4439-81c2-3f7a9b9ecdd9,2024-10-09 04:24:00,US,paid_search,verified,2024-10-14 06:24:00,false
+5cc7ca75-5925-450f-800e-2a40305c6ed5,2024-02-15 23:28:00,SG,organic,verified,2024-02-26 15:28:00,false
+1b055e6f-7256-4a46-98e9-96a05447ed48,2024-01-20 01:35:00,BR,affiliate,verified,2024-01-22 01:35:00,false
+834c00b1-eb78-4247-8323-30e28d5adc9d,2025-04-01 00:35:00,GB,paid_search,verified,2025-04-15 09:35:00,false
+1983c828-e433-4c84-bbd9-5b89c4b18a27,2025-02-22 15:54:00,SG,referral,verified,2025-03-06 15:54:00,false
+20e861dc-2c1e-4db4-94fc-0872dbe550a4,2024-07-06 06:28:00,US,paid_search,verified,2024-07-20 09:28:00,false
+8ecafde4-49c3-4d55-b0a3-171eb3ef7a36,2025-02-13 17:35:00,US,organic,verified,2025-02-16 01:35:00,false
+e4798795-683f-46a9-b47a-990abedd07cb,2025-01-03 07:46:00,FR,organic,verified,2025-01-08 19:46:00,false
+8a5690c1-dc32-48b2-84d6-8f6a63fb7d17,2024-07-20 14:29:00,US,paid_search,pending,\N,false
+d5e0ae15-6985-48ea-9222-b312a5181335,2024-01-25 04:53:00,SG,paid_search,verified,2024-01-27 21:53:00,false
+392a9925-e44b-48b1-8029-4ce4ca567259,2024-09-15 12:31:00,DE,paid_search,verified,2024-09-16 14:31:00,false
+5ca74330-0b19-4e77-b356-160fb03b2962,2024-09-17 13:44:00,US,referral,verified,2024-09-20 08:44:00,false
+44d0b5fc-57ce-43fb-9339-bbbac135e987,2024-06-14 00:56:00,IN,partner,verified,2024-06-27 01:56:00,false
+3d1521f5-253f-49e0-9a13-bab966e88456,2024-06-24 17:28:00,US,referral,pending,\N,false
+5dcf0241-ea3f-421b-9e72-c80aaba8715c,2024-09-19 17:53:00,AU,affiliate,verified,2024-09-26 11:53:00,false
+99a26302-faf8-4074-bb45-2ee005777e59,2024-04-12 14:39:00,CA,partner,verified,2024-04-27 07:39:00,false
+ac0deef4-d145-4827-b94c-d8d841dfa758,2024-11-28 13:32:00,US,organic,verified,2024-12-12 05:32:00,false
+e6e49e5d-fa0e-4a9a-a5f3-578f73ef4c32,2024-09-03 02:36:00,AU,partner,rejected,\N,false
+3846b8c3-4fa8-471d-b6d7-0f8bb5c7fd20,2024-09-30 17:56:00,BR,referral,pending,\N,true
+c197bf4d-0d74-488b-a53d-e9816a9bf297,2024-03-15 09:42:00,SG,organic,verified,2024-03-21 03:42:00,false
+c76a902f-cd25-4cec-9ab0-a08864644377,2024-05-08 12:53:00,US,referral,verified,2024-05-14 21:53:00,false
+06ff9eab-493a-48c5-8777-d619394f64a3,2024-08-19 11:39:00,AU,sales,pending,\N,false
+d1195cd4-9a8e-4a41-8f6b-21b3dc73a417,2024-10-14 20:15:00,US,partner,verified,2024-10-29 18:15:00,false
+4b8aa512-e13b-4436-8424-23aed6f1389b,2024-07-17 21:50:00,US,referral,rejected,\N,true
+dd12b5d4-e09f-4a3e-838a-6c2fae6e9de6,2024-05-08 14:39:00,BR,paid_search,pending,\N,false
+41e8b9df-0f24-47a2-8573-e79c319daea9,2024-11-21 06:45:00,DE,referral,verified,2024-12-03 21:45:00,false
+23b7a3eb-774c-45ca-a3df-fd183d70b1f1,2024-04-09 17:28:00,US,affiliate,verified,2024-04-24 08:28:00,false
+85c4e6e3-6956-4197-a423-e06236dd10f5,2024-03-02 20:02:00,US,organic,verified,2024-03-14 18:02:00,false
+0ac9fab2-6142-4bb5-9afa-9019fa7688f5,2024-01-03 18:29:00,US,affiliate,verified,2024-01-07 03:29:00,false
+86bce7ba-70f2-466a-a983-42050614d648,2025-02-01 04:39:00,US,partner,pending,\N,false
+c88fc31b-b66a-434d-954d-9c850e872e3c,2024-02-08 06:20:00,GB,partner,verified,2024-02-12 06:20:00,false
+b4bdbe7d-aecb-4bed-8dae-d4065f92c6ee,2024-10-06 01:25:00,IN,partner,verified,2024-10-10 20:25:00,false
+6071528d-278e-4f1b-a561-af145fb8a9f5,2024-05-30 14:48:00,NL,sales,verified,2024-06-09 19:48:00,false
+46ffc377-3d5a-4a8b-a0d2-bf16646176e2,2024-01-05 11:42:00,IN,referral,verified,2024-01-10 16:42:00,false
+eed1c47d-9907-41b0-a19e-699ce080e36f,2024-01-22 05:56:00,CA,referral,verified,2024-01-24 17:56:00,false
+2ff9d7ba-9ee9-4773-829a-e5622818c0f7,2024-09-21 19:32:00,GB,organic,pending,\N,false
+2d6f36f8-7e93-445e-85f8-fca0fc0e135f,2024-04-08 18:32:00,US,affiliate,verified,2024-04-10 21:32:00,false
+963d7d3c-6c57-43a1-a2d5-8beb2916e536,2024-01-05 04:04:00,SG,sales,verified,2024-01-18 16:04:00,false
+bd81cd5a-9713-4091-b777-9ec07398efb0,2024-02-23 14:34:00,IN,partner,pending,\N,false
+59c27604-cd8c-4fd4-a44a-b30f8a581476,2025-02-22 10:47:00,GB,paid_search,verified,2025-02-23 00:47:00,true
+faec8366-be1a-49fa-91fa-3cac5756af84,2024-01-28 13:50:00,DE,organic,verified,2024-01-30 03:50:00,false
+55eb0cba-e362-46ef-bf2b-d30ebf9ee64a,2024-07-17 22:40:00,US,partner,verified,2024-07-24 17:40:00,false
+66c26d1d-e709-4308-a44b-e4f5aee5bfbd,2024-11-25 07:39:00,US,sales,verified,2024-12-07 20:39:00,false
+bf01ce16-b6a1-4e59-96e2-a40bb252e745,2024-09-14 11:18:00,US,organic,pending,\N,false
+cf5f658d-8ea7-4fb2-b82b-ee5936019e4a,2024-08-12 20:25:00,US,organic,pending,\N,false
+ba4bf614-4cc1-4d8a-acfe-e93bacd8292c,2025-01-17 20:50:00,DE,affiliate,pending,\N,false
+0226126d-6ad8-48a9-9ac3-11d470cdff98,2024-12-13 07:41:00,DE,referral,verified,2024-12-13 14:41:00,false
+76065903-9aae-449d-8036-b6ad646ccb4d,2024-01-04 02:38:00,IN,paid_search,verified,2024-01-15 20:38:00,false
+5f83e7fb-2563-4359-b0f1-d5396bf82eaa,2025-01-06 19:13:00,BR,organic,verified,2025-01-20 15:13:00,false
+fd651ce4-464d-44ce-9ef2-20a77b9fb6b3,2024-11-11 16:12:00,BR,sales,verified,2024-11-26 01:12:00,false
+f0119121-7bfb-4f10-93a2-c7339fd52aaa,2024-10-08 22:41:00,FR,organic,verified,2024-10-15 04:41:00,false
+a56e4bce-b5ee-4f44-bd85-4875d96434d3,2024-10-24 23:21:00,FR,organic,verified,2024-11-08 08:21:00,false
+4d16b7f9-9fb4-4abb-8264-8055912bda7d,2025-04-05 14:20:00,FR,paid_search,verified,2025-04-12 16:20:00,false
+e23372c0-5f0d-4b34-ae8e-23e7e78826da,2024-10-17 02:23:00,IN,organic,pending,\N,false
+8e686191-ec9c-4619-8ce2-5920c08e8c70,2025-02-06 15:45:00,US,paid_search,verified,2025-02-16 00:45:00,false
+ee87a524-fb97-44d3-b543-2ab00e75d0e5,2024-06-18 23:29:00,GB,organic,verified,2024-06-25 13:29:00,false
+96d4a25a-6f22-49a0-82e6-f1aa9904a227,2024-02-11 16:54:00,IN,organic,pending,\N,false
+2918680b-f4b4-4053-b167-e36c4bf6cb9e,2024-11-16 10:46:00,BR,referral,verified,2024-11-16 21:46:00,false
+fd7cd25a-73d1-419f-8eaf-0779a7a2e1b3,2024-10-23 20:49:00,DE,referral,verified,2024-10-24 16:49:00,false
+f0779629-82bb-49cd-a3a4-0b7ffdff2ca0,2024-08-30 04:49:00,US,partner,verified,2024-09-07 14:49:00,false
+0c24a112-9468-4e2e-a0d8-97ef2e673dee,2024-05-28 12:29:00,CA,referral,verified,2024-05-30 12:29:00,false
+d264d059-06fb-4890-9a75-13b8388ffb97,2025-03-11 03:43:00,US,organic,verified,2025-03-22 04:43:00,false
+8f25ff61-5cf1-4251-b4c1-8f74e1e0f6b6,2024-10-17 05:55:00,AU,referral,rejected,\N,false
+b5dfaef7-5f78-41db-a84e-2dba7ec41335,2024-04-22 23:14:00,US,partner,verified,2024-04-30 22:14:00,false
+42cb3376-3a75-42ae-8829-4c21552b41c9,2025-02-09 19:24:00,IN,organic,verified,2025-02-19 13:24:00,false
+0de1b927-3ecd-458e-b11c-e737616f2870,2024-02-23 06:33:00,BR,organic,verified,2024-02-29 04:33:00,false
+6a460d0d-17a1-4b5a-99a8-b9da8d2e47d3,2024-03-30 20:41:00,FR,sales,verified,2024-04-12 10:41:00,false
+f0cb37d1-ed86-45db-87ad-565f6bfa666b,2024-07-11 15:33:00,GB,referral,verified,2024-07-19 01:33:00,false
+55a509af-4d28-4fec-8905-8139350fa1cd,2024-09-13 12:28:00,GB,paid_search,verified,2024-09-15 05:28:00,false
+195b81a5-7bb1-4a5b-924b-2fb07264e609,2024-03-21 19:38:00,FR,paid_search,verified,2024-03-24 09:38:00,false
+3d9702f9-f282-47f5-a01b-95e7dbe15979,2024-02-28 23:43:00,DE,referral,verified,2024-03-04 12:43:00,false
+c2965160-7f56-4c77-88b2-2548d9ef3ec2,2024-05-04 09:08:00,US,referral,verified,2024-05-07 21:08:00,false
+f26bfa1f-1286-4926-9ed6-936ecf85fdc1,2024-03-16 09:10:00,GB,paid_search,verified,2024-03-20 07:10:00,false
+e8451f68-11bc-43dd-98c3-199faa777f3e,2024-11-22 08:56:00,BR,affiliate,verified,2024-12-06 12:56:00,false
+ebf5e90b-b44f-41c2-894e-662214aee4b8,2024-11-06 23:55:00,BR,referral,verified,2024-11-11 17:55:00,false
+a402124c-e77e-4657-a6d6-59a51a076a99,2025-02-24 13:39:00,US,partner,verified,2025-03-02 06:39:00,false
+530cd8f0-e6bf-4a86-a7f4-7778e0c91e97,2024-11-02 02:04:00,US,organic,verified,2024-11-10 09:04:00,false
+981b166f-0850-4ae6-b90f-f3ab22043996,2024-09-16 05:26:00,DE,organic,pending,\N,false
+1f4a9b35-7bee-49db-8908-23a538f44c4c,2024-11-03 09:56:00,GB,organic,pending,\N,false
+075a92db-af6c-47ee-b503-1922f7ca03f4,2024-03-08 03:34:00,IN,partner,pending,\N,false
+8e873e71-d6c1-41bc-ac52-ef2607e61c3e,2024-09-24 21:23:00,AU,paid_search,pending,\N,false
+736e0808-ef90-4793-a6d4-bcd7ba284bb7,2024-09-03 20:22:00,DE,paid_search,verified,2024-09-18 18:22:00,false
+4ed4e5a0-5275-490c-b429-29888b7b5a99,2025-01-27 15:58:00,US,sales,pending,\N,false
+4a7421ec-ea09-4bce-afdd-69d22694d1a3,2024-04-06 08:45:00,DE,organic,verified,2024-04-06 13:45:00,true
+388fe335-3b80-489a-a75c-22bbc7036a9b,2024-12-01 14:44:00,CA,organic,pending,\N,false
+ba5f672a-0c1d-4f68-9014-62a8852a776e,2024-10-26 16:16:00,GB,paid_search,pending,\N,false
+85bc338c-979c-4dc9-96b2-c79d2b7ca05d,2024-12-14 20:48:00,SG,referral,verified,2024-12-26 16:48:00,false
+4e9ead3b-b600-4ebc-a881-f6b44dfb257a,2024-10-11 23:16:00,DE,partner,rejected,\N,false
+260deede-02e7-41bb-84f6-c40493cdba00,2024-03-12 05:07:00,SG,affiliate,verified,2024-03-21 19:07:00,true
+8c988945-680b-477b-8f12-764df86add10,2024-09-17 20:50:00,FR,partner,verified,2024-09-29 15:50:00,true
+50701514-0ce1-498e-9288-b4a9b8bb61ad,2024-07-19 04:00:00,BR,referral,pending,\N,false
+fbeacabc-3d2f-47ba-b08d-aaa885d0b3af,2024-02-15 10:16:00,DE,partner,verified,2024-02-17 04:16:00,false
+4b02a517-2628-4536-8e75-02495c99f469,2024-07-25 03:41:00,US,partner,verified,2024-08-06 22:41:00,false
+cde99de3-300d-4ba2-9bcf-c1cb6821e1fb,2024-09-10 22:00:00,IN,referral,verified,2024-09-25 00:00:00,false
+1a8d0bcd-db31-48c6-8f43-52072c322a0f,2025-02-06 03:32:00,FR,partner,verified,2025-02-11 03:32:00,false
+b8eabcc8-3c30-4413-8ab6-e1647861c58a,2024-12-01 08:10:00,SG,paid_search,verified,2024-12-07 07:10:00,false
+765477c5-2e30-4cc3-8961-636115e65729,2024-10-27 14:33:00,IN,referral,verified,2024-10-29 03:33:00,false
+b04e1442-a06d-4c26-8707-4fa90274e4a4,2024-10-14 02:22:00,US,affiliate,verified,2024-10-20 01:22:00,false
+0b8dabe7-e979-4f03-9ff6-3694d1a3f0f9,2024-07-26 02:00:00,GB,referral,verified,2024-08-03 20:00:00,false
+fd807daf-d137-43b2-8241-d813223df7d2,2024-06-23 11:51:00,IN,sales,verified,2024-06-29 00:51:00,false
+e9b970a6-697c-440f-99c1-d536383ef39e,2024-12-21 22:24:00,SG,affiliate,verified,2024-12-27 04:24:00,false
+12b73961-9659-44c8-b4d1-71fc2e92902d,2024-08-24 02:55:00,US,paid_search,verified,2024-08-26 15:55:00,false
+1b631f02-8580-481b-90b7-9ef2c2b73d36,2024-04-23 05:44:00,CA,paid_search,verified,2024-04-30 00:44:00,false
+846ef8e8-03d7-41ed-96cb-c7c431bc3c5e,2024-12-24 16:15:00,FR,sales,verified,2025-01-02 06:15:00,true
+ac0fc9f3-3803-409b-8cbc-d98fc8c4a7d6,2024-04-01 23:20:00,US,affiliate,verified,2024-04-14 06:20:00,false
+3230eef2-cb9f-4fce-9076-9609f67f1a79,2024-04-07 23:47:00,IN,organic,verified,2024-04-13 04:47:00,false
+91b06cb2-e99f-4aaa-9408-d871f828db78,2024-05-08 03:22:00,US,organic,verified,2024-05-10 11:22:00,false
+5af10a05-f82b-40b3-ab8e-19aafcfc10f7,2024-09-10 03:00:00,IN,sales,verified,2024-09-21 18:00:00,false
+533b86b3-b8da-41fa-8a51-4afdf33fb80c,2024-06-10 23:57:00,IN,sales,rejected,\N,false
+30db7177-bb0e-4aaf-9f09-2a2b3e68411a,2025-01-27 00:17:00,US,referral,verified,2025-02-08 09:17:00,false
+39d7fc2e-1964-4258-8bb3-e0759f34054c,2024-10-03 09:32:00,SG,paid_search,verified,2024-10-18 02:32:00,false
+5f5b283a-3e7c-484d-944d-4e10215a6b5b,2024-09-22 22:20:00,FR,paid_search,verified,2024-09-23 06:20:00,true
+f86f441a-dc03-4cb6-ab7b-373bdc4eeb3c,2024-07-05 03:55:00,US,organic,verified,2024-07-16 21:55:00,false
+dab5ed35-0443-4a9f-8caf-5879c73ecc30,2024-06-24 19:11:00,CA,partner,verified,2024-06-29 08:11:00,false
+84bfa1ff-1ba0-4fd1-b61a-8aa45d4b806c,2024-07-24 16:28:00,NL,partner,verified,2024-07-27 13:28:00,false
+33d95d36-2fa9-4598-8e13-40953bf3f615,2025-01-04 16:51:00,BR,organic,verified,2025-01-13 23:51:00,false
+d2182266-33c8-4836-8eb2-df3564848c00,2025-01-13 12:30:00,US,referral,pending,\N,false
+b5040785-3de5-43ef-9dab-6ab34e6bed79,2025-03-11 04:33:00,SG,paid_search,verified,2025-03-17 23:33:00,false
+414f39f0-af8a-4da9-8ba9-4f540cdbb10b,2024-10-17 09:25:00,US,sales,verified,2024-10-20 22:25:00,false
+b79515b4-6b5a-49f2-9d08-aa800768d3a4,2024-11-18 11:28:00,CA,referral,verified,2024-11-24 02:28:00,false
+2e48bb67-91c0-4e00-a69b-45a9ec544bea,2024-05-11 19:01:00,BR,affiliate,verified,2024-05-19 08:01:00,false
+84551d40-d8fd-4456-8032-526a34c6b451,2024-10-22 04:41:00,CA,partner,verified,2024-10-28 07:41:00,false
+f1862fbc-526d-4536-bb62-6ef9bf5a32ad,2025-01-12 22:56:00,US,referral,verified,2025-01-26 02:56:00,false
+c479acd5-9108-4f6a-801d-96e25b9bc1ee,2024-03-27 04:51:00,GB,referral,pending,\N,false
+5c3bdec2-dac5-4e1c-aa38-4196a962fa3c,2024-02-06 10:10:00,US,paid_search,verified,2024-02-13 04:10:00,false
+97d7b6c3-34ef-44e5-9531-c3a755baa28d,2024-11-26 20:17:00,SG,affiliate,pending,\N,false
+44d216d1-8358-4fa4-a7f4-96f0536add5c,2024-09-23 22:26:00,US,organic,verified,2024-09-24 11:26:00,false
+0d8aa4c6-4937-488e-8a2e-8e1888e20f4e,2025-01-16 06:47:00,CA,organic,verified,2025-01-19 21:47:00,false
+cbdaf961-b302-4de0-b7a7-48171119aea4,2024-08-31 01:03:00,GB,affiliate,verified,2024-09-08 14:03:00,true
+13fc6e23-44ac-4964-b737-43619635ec7a,2024-11-12 12:05:00,US,organic,verified,2024-11-20 21:05:00,false
+49683c7f-a133-437b-9a7f-6ea33bc454ab,2024-11-16 12:08:00,US,partner,verified,2024-11-20 05:08:00,false
+f25a3319-8cc4-49c1-a69b-bbc0baf7a7ff,2024-06-15 23:29:00,DE,organic,rejected,\N,false
+7dec5f30-6241-4987-9420-3def7de3b9a6,2024-12-24 01:11:00,FR,referral,verified,2025-01-02 20:11:00,false
+85a5c0eb-661c-4e40-affa-b448fd404475,2024-09-26 04:40:00,GB,organic,verified,2024-10-03 15:40:00,true
+4d01eb4a-2160-41d8-949a-df711ec082ee,2024-06-06 19:26:00,US,referral,verified,2024-06-13 08:26:00,false
+5e249a5b-bc93-46d1-b2f3-c7134d65d8bf,2024-03-10 19:18:00,AU,referral,verified,2024-03-11 01:18:00,false
+8433a565-4d2f-40b7-acec-e573c713c69a,2024-06-02 08:49:00,DE,partner,verified,2024-06-08 15:49:00,false
+f32b4729-665a-4d68-be7a-2e1ae040d7a1,2024-04-06 21:56:00,US,partner,verified,2024-04-15 09:56:00,false
+18bfe9a9-4f6b-4195-95a0-aa6db615c59c,2025-02-28 20:14:00,FR,referral,verified,2025-03-09 22:14:00,false
+897819db-c4b4-453c-ad5a-a6a6ceee7778,2024-11-10 06:43:00,SG,sales,verified,2024-11-24 04:43:00,false
+428788fb-a9ae-457a-8f77-ed3f2c7b1964,2025-03-12 10:11:00,FR,referral,verified,2025-03-14 20:11:00,false
+44053554-aea3-41ef-9db7-e44cd8b3f6e9,2024-11-14 23:12:00,US,referral,verified,2024-11-18 06:12:00,false
+23df7c83-cd2a-4811-ace7-ac335ebab174,2024-02-22 17:17:00,AU,organic,verified,2024-03-03 03:17:00,false
+803c75db-7dab-4bbd-8730-484818dfeadf,2024-09-09 14:21:00,NL,referral,verified,2024-09-20 07:21:00,false
+7c135567-70b1-40de-8279-86945a9fe9cd,2024-06-18 10:53:00,US,partner,verified,2024-06-21 14:53:00,true
+de49a749-1449-4afd-9e08-f05156aec14e,2024-08-28 13:12:00,US,paid_search,pending,\N,true
+6f46297f-722d-4f08-b8fd-e4e2244c3e5d,2025-01-29 06:15:00,US,affiliate,verified,2025-02-07 18:15:00,false
+431ac30a-2651-4153-b368-a5d9edbef62b,2025-01-11 11:33:00,GB,partner,verified,2025-01-15 23:33:00,false
+e0302985-badd-4efe-9f84-7f0e7ad62280,2024-06-14 13:40:00,GB,organic,verified,2024-06-26 08:40:00,false
+16459c0b-4cd4-4750-b6f0-214048e6f53a,2024-04-11 19:56:00,US,organic,verified,2024-04-26 02:56:00,false
+b69055e2-8b4b-4892-93f3-c861db7488d8,2024-06-15 08:10:00,DE,paid_search,pending,\N,false
+6907fc9a-3b0b-4d3e-b386-c54332a89e24,2024-01-23 02:50:00,DE,paid_search,verified,2024-02-06 20:50:00,true
+bd64a09d-c29f-4919-88f0-8305eb3227d5,2024-03-21 23:05:00,IN,affiliate,verified,2024-03-29 06:05:00,false
+b76d09dc-258f-4982-bef0-1d407aee325b,2024-01-31 19:41:00,BR,organic,verified,2024-02-12 07:41:00,false
+7a2c8f4b-691e-4481-a077-6901bb5178f3,2024-10-13 04:48:00,AU,organic,verified,2024-10-22 14:48:00,false
+1fafd4bf-a445-40c1-b1cc-11c2b04f71be,2025-01-05 12:16:00,GB,paid_search,pending,\N,false
+92a9bf09-4196-4feb-9116-e8033091ef09,2024-12-22 23:12:00,CA,partner,verified,2025-01-03 15:12:00,false
+f70edcf2-c111-49a6-b739-81488f5695ba,2025-03-02 03:58:00,US,referral,pending,\N,false
+c6e3b85a-4bc7-4923-b97e-0b1ca62cae08,2025-02-23 16:34:00,SG,referral,verified,2025-02-23 18:34:00,false
+f34293ce-3a2a-46b0-bddf-26ed6ed338dc,2025-03-28 08:39:00,SG,organic,pending,\N,false
+e0deea61-6d55-489e-8d5a-4aced6e008a8,2024-12-04 01:52:00,AU,partner,verified,2024-12-15 07:52:00,false
+b701e327-4391-45e8-b4cb-a40c4e75e041,2024-05-24 18:26:00,US,referral,verified,2024-05-27 04:26:00,true
+f6ad1c56-f561-41c1-81af-7aaf1cc16385,2024-03-07 13:55:00,GB,organic,verified,2024-03-09 21:55:00,false
+311cc749-379e-45ba-a356-cffa24037e44,2025-03-04 20:42:00,AU,organic,verified,2025-03-18 05:42:00,false
+a5a2cbcd-44d5-47fa-8ed8-c8fc7b463d2a,2024-11-07 06:04:00,FR,affiliate,verified,2024-11-11 18:04:00,false
+db2aa4da-0a76-4a47-9c52-53875cb9a2e8,2024-08-28 04:03:00,BR,partner,verified,2024-09-06 02:03:00,true
+bae57eef-a7ed-4d5e-a806-bfeaeab7118a,2024-11-11 16:33:00,BR,organic,verified,2024-11-13 06:33:00,false
+7cdd9cb7-3f29-46a5-9191-8d5874f173ac,2024-09-22 11:06:00,CA,organic,verified,2024-10-03 21:06:00,false
+a5c5cc0b-4777-496a-824a-aaec49648266,2024-10-19 04:11:00,CA,organic,verified,2024-10-31 03:11:00,false
+f5c96247-37e2-4a11-956b-8d760b3d918b,2024-07-03 05:29:00,IN,organic,verified,2024-07-12 09:29:00,false
+3cbf1375-5854-4f2b-b33c-fdff36417cca,2024-07-25 00:21:00,NL,paid_search,verified,2024-08-05 11:21:00,false
+b0657622-618b-46b6-b58f-9dd4b3f1cf1b,2024-06-11 01:20:00,CA,referral,pending,\N,false
+fe795d99-fee3-4632-9eb8-69a8b1f9de66,2024-06-15 03:15:00,CA,referral,verified,2024-06-19 18:15:00,false
+36092c7f-c0db-411b-a121-3651ff335f4b,2024-07-03 22:28:00,US,organic,rejected,\N,false
+f4d88d4c-fdbb-481c-9094-f476c036dbb7,2024-01-10 00:08:00,US,paid_search,rejected,\N,false
+82df94e9-8895-48eb-b58f-504fffeb53fc,2025-03-14 18:01:00,BR,affiliate,verified,2025-03-29 13:01:00,false
+2aa2aac7-cc6f-4520-bfc3-be17b57ca934,2024-10-20 02:09:00,CA,organic,verified,2024-10-29 23:09:00,false
+71dde10f-14da-4941-844f-0a07229c17a8,2024-10-25 15:14:00,US,paid_search,verified,2024-11-01 02:14:00,false
+fc73719d-9fb6-476b-9c37-1c4aff713943,2025-01-10 10:46:00,US,sales,verified,2025-01-20 19:46:00,false
+b5b83122-7c47-4689-89c5-b157fc3156d7,2024-10-22 11:38:00,AU,referral,verified,2024-10-23 08:38:00,true
+e0253934-a05a-4c1c-9b5e-ac1b8d018715,2024-01-29 18:22:00,GB,affiliate,pending,\N,false
+2a789651-06d7-4857-9885-79ec9e6a0d9e,2025-01-29 15:47:00,IN,referral,verified,2025-02-11 13:47:00,false
+fbc220c9-d983-4fe2-a0e7-1ca4b9338cab,2024-01-28 17:33:00,DE,paid_search,verified,2024-02-09 07:33:00,false
+d93520c8-03d0-46bd-9f0c-8c69ccfa662a,2024-03-19 09:43:00,NL,partner,verified,2024-03-27 20:43:00,false
+52b69acf-10d9-4ed9-a268-f1570524992a,2024-02-16 15:27:00,US,paid_search,verified,2024-02-25 02:27:00,false
+bfae2a74-c8ab-4a3f-a848-50c9d7efa0e4,2025-01-16 09:35:00,CA,paid_search,verified,2025-01-18 06:35:00,false
+d32b1574-8bd0-42df-830c-c3d2ca010077,2025-01-25 12:30:00,CA,referral,verified,2025-02-04 23:30:00,false
+63de2dff-92ea-4fb1-8035-ff1880de0039,2025-01-12 00:15:00,SG,paid_search,verified,2025-01-17 18:15:00,false
+1660ffd1-c230-4c4d-957b-05dcdf37a679,2024-02-15 11:42:00,CA,paid_search,verified,2024-02-23 08:42:00,false
+044c5cbf-2ef8-422b-95fe-2207180e605b,2024-01-13 17:10:00,FR,affiliate,rejected,\N,false
+0739dc1c-cdb8-46a1-993b-9e7a936db662,2024-03-15 22:02:00,US,partner,pending,\N,false
+e8429946-3c6d-486c-8180-006b2578f21c,2025-01-07 10:07:00,IN,affiliate,verified,2025-01-12 16:07:00,false
+4eba2740-4d49-44c2-87cb-5852fbaad6dc,2025-02-23 17:00:00,US,referral,verified,2025-02-26 03:00:00,false
+6f1fcccc-e2ef-490c-a0e7-6acd4b05d30b,2025-01-14 01:13:00,SG,referral,verified,2025-01-25 06:13:00,false
+cbacacdb-22c9-4d02-a4f5-9f0252c9747d,2024-03-14 06:44:00,DE,partner,verified,2024-03-22 08:44:00,true
+a5720380-f602-448b-b953-9aec7bcb6e29,2024-03-28 09:18:00,FR,organic,verified,2024-04-12 07:18:00,false
+5ae493c9-70b8-463e-a0d2-afc4f39bf05b,2024-01-05 10:24:00,BR,partner,verified,2024-01-19 15:24:00,false
+3d2ea797-a5c1-4bd4-adde-f6f46ec9c7c3,2024-01-10 17:55:00,CA,affiliate,pending,\N,false
+527794c0-264b-4ff2-8afc-9a69a9083330,2024-12-29 11:57:00,DE,organic,verified,2025-01-11 06:57:00,false
+d41ee44f-11e6-4759-8413-15675cd4afb9,2024-08-23 01:59:00,US,referral,verified,2024-08-23 23:59:00,false
+adc7cdbf-2c55-4d46-a086-26da2e6144c1,2024-07-21 07:10:00,CA,referral,verified,2024-08-04 23:10:00,false
+d475b27f-dfb6-46ab-a5a2-02c799222af8,2024-09-13 16:51:00,IN,affiliate,verified,2024-09-19 05:51:00,false
+9f0b80b5-2323-4971-b1af-5b7e88e96a4f,2024-01-17 01:17:00,IN,referral,verified,2024-01-24 09:17:00,true
+35f73b05-62a4-498e-9ee2-d4303f206dc3,2024-07-15 00:43:00,AU,paid_search,verified,2024-07-28 10:43:00,false
+d2e2e516-ecdb-4ad6-bcee-9500a1cecca1,2024-08-06 17:58:00,DE,organic,verified,2024-08-16 08:58:00,false
+efaf8bdd-97ae-495f-bfcb-5c20b344d129,2024-10-05 05:51:00,US,partner,verified,2024-10-08 05:51:00,false
+a6a19849-f1ca-498b-9d1c-8cd75695df2e,2024-03-10 21:58:00,US,affiliate,rejected,\N,false
+1ea126f5-0b28-48d8-a8b3-6afd9cf2a2e5,2024-06-11 10:35:00,US,sales,verified,2024-06-14 00:35:00,false
+1ec5141b-62dd-4c86-a945-fe3892e44dc6,2024-01-16 18:56:00,NL,paid_search,rejected,\N,false
+eac6c24b-e973-4a83-866d-d1fa84909882,2025-02-25 04:59:00,SG,organic,verified,2025-02-28 11:59:00,false
+86cb2193-ec0d-496e-b6a7-7d15ed037746,2025-01-26 03:39:00,FR,referral,verified,2025-02-07 07:39:00,false
+7b681e56-1053-42e7-8e2a-4a97c2924ec7,2024-01-14 19:05:00,US,sales,verified,2024-01-25 01:05:00,false
+cafa8ce8-3b88-4f9d-8886-a41d6b146607,2024-11-28 19:11:00,GB,organic,pending,\N,false
+0c66b61e-f4e7-4730-bdc3-c3d37ab1ac62,2024-01-17 21:48:00,IN,affiliate,rejected,\N,false
+a012837d-b1f9-4777-b3bb-3a7c0ec4b4fc,2024-12-09 14:48:00,IN,affiliate,verified,2024-12-13 10:48:00,false
+216dd868-df6e-4882-92d9-fd3a297280e5,2024-09-08 06:20:00,IN,paid_search,pending,\N,false
+62fa7fe2-fa69-42dc-95a5-a2fb7328b4b3,2024-11-08 07:52:00,CA,affiliate,verified,2024-11-15 01:52:00,false
+67c53656-6467-47ba-8523-c60e99a06fc8,2024-10-02 00:41:00,SG,referral,pending,\N,false
+0496f9df-04c8-4f7e-b1fe-4b680c72b148,2025-02-27 09:56:00,GB,paid_search,rejected,\N,false
+2c876132-1b01-4206-a98e-08f2c1063fd4,2024-10-12 20:33:00,US,paid_search,verified,2024-10-13 23:33:00,false
+b2b92b61-3509-44e7-9068-8d3200897184,2025-01-31 17:29:00,FR,organic,verified,2025-02-07 01:29:00,false
+bb26c4cd-1aa8-48e1-9cd7-a3e7fde4b45f,2024-03-13 22:53:00,AU,organic,verified,2024-03-15 22:53:00,false
+9e76ccd4-9b10-4d55-965c-c1c548de5a31,2025-04-03 06:34:00,US,organic,verified,2025-04-12 03:34:00,false
+bcc83d95-f5ed-4b6a-986e-80579b1195c0,2025-04-05 06:57:00,US,paid_search,verified,2025-04-15 00:57:00,false
+f2a8583a-63ee-42e8-9e8b-3e868a686c4e,2024-12-30 13:45:00,US,paid_search,verified,2025-01-01 13:45:00,false
+4b0b73e8-fd5b-43bd-9df2-37952e1ea1da,2024-09-26 06:24:00,FR,organic,verified,2024-10-07 05:24:00,false
+596be2ad-ec76-4fdd-90e9-1d40770b275c,2024-01-23 13:58:00,BR,organic,verified,2024-02-06 16:58:00,false
+60e9a491-4e1a-4209-82e3-1130995c6d37,2025-01-29 06:03:00,AU,affiliate,verified,2025-02-04 22:03:00,false
+c5aa7afa-a61e-4f52-89f8-9882cbe82c5b,2024-04-02 11:57:00,US,partner,verified,2024-04-06 20:57:00,true
+ea4e7841-4b00-444d-bc6c-13093a23e8eb,2024-09-11 23:34:00,DE,referral,pending,\N,false
+ae91b5f5-a7d2-4a90-a341-34e819bd873e,2024-12-03 23:29:00,DE,organic,verified,2024-12-05 17:29:00,false
+a0e30d14-d20f-48c3-afe4-c20cfb8ed893,2024-05-23 03:40:00,US,organic,verified,2024-05-27 15:40:00,false
+169a2516-ade6-4a6c-9eb2-0a643ac75f3d,2024-01-19 12:54:00,BR,paid_search,verified,2024-01-31 21:54:00,false
+28e8f58a-d599-4e0e-ada9-67a0dec3d4c5,2024-01-26 11:26:00,US,paid_search,rejected,\N,false
+f8a68912-a577-42dd-8725-0b2ab0368afe,2024-12-25 03:36:00,US,paid_search,pending,\N,false
+39fedf15-0af9-4c4b-9128-28c054ef0bae,2024-01-19 10:49:00,IN,sales,verified,2024-01-27 08:49:00,false
+7fdc4719-e17f-4389-8bd5-65beab11a43a,2025-03-08 01:04:00,US,sales,verified,2025-03-10 23:04:00,false
+71d64f7b-731b-4653-aa6d-43481e3f3ce5,2024-07-31 00:13:00,US,referral,verified,2024-08-13 03:13:00,false
+3da23f2b-11ac-4fcc-955c-c038ff7b60aa,2024-09-27 10:30:00,IN,affiliate,verified,2024-10-10 09:30:00,false
+6fb12210-e177-4ddc-93cd-d5b9c59b23a5,2024-11-07 18:16:00,CA,organic,verified,2024-11-21 03:16:00,false
+f5833f56-776c-4c2a-9cfd-0b26a88edfcb,2024-09-24 07:40:00,IN,organic,verified,2024-09-28 05:40:00,false
+0495edef-2a6a-4567-97e0-5e837ec81cc7,2024-04-09 08:07:00,BR,partner,verified,2024-04-22 18:07:00,false
+5e8cba00-8a7e-4c05-ad37-40b6fc699dd2,2024-11-11 21:26:00,DE,referral,verified,2024-11-19 10:26:00,true
+e71a610d-5a75-4664-bf01-90a7ed1cfeaf,2024-04-14 06:18:00,US,referral,verified,2024-04-15 18:18:00,false
+53591434-e895-45e4-9986-aad1f67632ad,2024-01-04 11:43:00,AU,referral,verified,2024-01-12 23:43:00,true
+d5f50d67-c547-4438-ac14-61d7d7e80b02,2024-03-30 14:21:00,IN,referral,pending,\N,false
+d2a5cce5-63ec-4315-b071-ff525ac245ce,2024-01-20 04:08:00,GB,sales,verified,2024-02-02 15:08:00,false
+6c308086-5512-4de0-a1bd-2fa4a8cc0bb9,2024-08-24 21:59:00,US,partner,verified,2024-09-05 01:59:00,false
+5749d0ce-d7ce-4006-9f2d-33acb93761eb,2024-10-01 08:13:00,BR,affiliate,verified,2024-10-08 11:13:00,false
+bd3722b3-b79a-4f9d-914f-61826451a173,2024-03-17 16:53:00,FR,sales,verified,2024-03-25 18:53:00,false
+34383d9e-7d30-4de6-b51c-e49a17b166be,2024-07-18 13:38:00,AU,paid_search,verified,2024-07-25 04:38:00,true
+0a50d7ef-b6c5-4eeb-a967-6a74dc8b0019,2024-07-30 10:31:00,CA,sales,pending,\N,false
+801ddad9-633c-4612-8d5e-fb2ad39b407e,2024-09-25 17:11:00,SG,affiliate,verified,2024-09-26 14:11:00,false
+4a2c536b-f443-4d22-8b14-445f00477947,2024-01-13 23:57:00,CA,referral,verified,2024-01-18 02:57:00,false
+3ff09718-db17-4a4f-a6ec-fdaba4eebc72,2024-06-07 18:09:00,BR,affiliate,verified,2024-06-09 22:09:00,false
+eb4a42a4-8ffe-4e47-b8f4-466fd7223c65,2024-03-08 14:46:00,AU,referral,verified,2024-03-16 22:46:00,true
+c8413836-8816-400d-98e7-96dc8a03b5b5,2024-01-24 05:54:00,US,affiliate,verified,2024-01-26 03:54:00,true
+b839af1c-03f7-474c-a9c7-48807aa6daa3,2025-01-28 05:47:00,SG,referral,verified,2025-02-09 14:47:00,false
+672df297-0306-4a53-ae8f-5b44231fe016,2024-04-12 14:18:00,SG,partner,verified,2024-04-19 11:18:00,false
+dd145eb6-d30a-4d40-999e-1878f4338f78,2024-03-21 16:07:00,DE,organic,verified,2024-04-04 00:07:00,false
+66b46614-604d-4bfa-ba15-c6a29aba2ba6,2024-10-08 18:17:00,DE,organic,verified,2024-10-14 21:17:00,false
+140d2b91-8e1a-41de-b1c2-e07ca7d6444d,2025-04-01 18:34:00,US,affiliate,verified,2025-04-04 14:34:00,true
+4dfa0881-6afb-4406-9540-549269993489,2024-07-15 09:05:00,AU,affiliate,verified,2024-07-19 06:05:00,false
+f6328b1f-1bb3-410b-bfab-4a59a51cb813,2024-12-20 06:28:00,US,organic,verified,2024-12-26 23:28:00,false
+0fec758d-631c-4f27-af8c-be7b5b3064cd,2025-02-19 01:05:00,SG,referral,rejected,\N,false
+74801d79-6af1-41e5-8395-4e167130d115,2025-02-21 06:29:00,AU,partner,verified,2025-02-27 22:29:00,false
+0c69fc05-81e6-4a2c-8a6b-cf4b5910c556,2024-04-28 15:09:00,FR,affiliate,pending,\N,false
+152cc2b2-8e8b-4cfe-9287-402296ae6899,2024-12-25 05:21:00,IN,paid_search,pending,\N,true
+0545a415-8a8a-4eb5-8d76-f072540f9c47,2024-08-31 11:22:00,US,paid_search,verified,2024-09-04 04:22:00,false
+120c929c-7900-4af3-8600-b1c3aba5547f,2024-09-17 11:25:00,BR,paid_search,pending,\N,false
+6356eaa7-a08d-4924-8a66-85b52729438c,2025-02-09 17:34:00,CA,referral,verified,2025-02-22 09:34:00,false
+e31c8f25-a470-4da6-a5b8-8a2962d25d15,2024-09-03 20:04:00,DE,partner,verified,2024-09-18 17:04:00,false
+e7990fe6-33dc-4a0d-92ef-fb50a6916b9c,2025-02-07 18:34:00,FR,organic,verified,2025-02-11 12:34:00,false
+3913f7a2-afbb-4549-8ffb-b91167a374f2,2024-10-20 23:07:00,US,organic,verified,2024-10-30 22:07:00,false
+6bbb3297-2b94-4af6-8776-5a254969359b,2024-06-06 20:04:00,BR,partner,verified,2024-06-21 12:04:00,false
+104137df-772c-4dd9-885b-81bc3caa68cd,2024-09-11 04:42:00,BR,affiliate,verified,2024-09-15 21:42:00,false
+6cd81212-c6b8-4184-8a24-44e007543d32,2024-11-21 08:48:00,GB,paid_search,verified,2024-11-24 14:48:00,false
+50d3826d-77ce-4ea3-8932-ffd50807918a,2024-08-16 14:13:00,US,partner,verified,2024-08-23 10:13:00,false
+873e30f6-15b4-4561-aaff-633b57fc853b,2024-08-11 06:58:00,DE,referral,verified,2024-08-13 05:58:00,false
+6d9392a2-695c-4411-93d4-a3b876ee4873,2025-03-09 12:54:00,IN,affiliate,verified,2025-03-17 11:54:00,true
+94254135-cd50-466f-ad77-e9571ee4aa50,2024-10-13 19:07:00,BR,organic,pending,\N,false
+c5bf08b8-2a75-461f-ba15-51759ff57969,2024-07-21 04:20:00,CA,referral,verified,2024-07-29 21:20:00,false
+cc14bf55-0e09-4e13-b2b2-a7c770fb8e4c,2024-08-31 12:12:00,BR,organic,verified,2024-09-08 06:12:00,false
+ee5b21fb-96bd-4032-9383-17e131535a3e,2024-12-09 12:08:00,US,partner,verified,2024-12-23 09:08:00,false
+c3e37860-5a2e-4b2f-af1e-098c13450d6b,2024-08-11 12:05:00,BR,affiliate,verified,2024-08-20 10:05:00,false
+fdbb9360-99aa-414c-b81c-1fa63e0af361,2024-08-06 03:11:00,DE,paid_search,verified,2024-08-15 06:11:00,false
+9da55836-b001-449c-b1ea-e3843af0d22a,2024-04-05 21:38:00,BR,organic,verified,2024-04-16 14:38:00,false
+aef756d2-32dd-4e2e-ad1e-1317ecc2f398,2024-07-30 01:36:00,DE,partner,verified,2024-07-30 22:36:00,true
+f2c32a41-78c5-4860-8ce4-a28a4252579a,2024-09-04 06:05:00,NL,affiliate,verified,2024-09-15 13:05:00,false
+378bfcea-2217-45a4-8242-db9bccfa808b,2024-08-27 00:05:00,US,referral,verified,2024-09-09 02:05:00,false
+68c6b735-cb45-48e5-81ea-6f87bda181b8,2024-12-08 10:43:00,US,organic,verified,2024-12-20 20:43:00,false
+308c7174-f558-48b7-80e1-f0b9a7df35f5,2025-02-02 08:30:00,DE,paid_search,verified,2025-02-12 10:30:00,false
+0b3fd334-74da-4338-bf38-7b3fc9758521,2025-02-12 17:18:00,IN,partner,verified,2025-02-27 14:18:00,false
+598bda4e-80fa-4550-be52-d11788934cf4,2024-10-15 16:03:00,US,organic,verified,2024-10-28 02:03:00,false
+e7d4084e-d959-44bd-8d8d-4cd330d7a33e,2025-02-19 07:39:00,US,referral,verified,2025-03-01 17:39:00,false
+7263224e-6e77-4442-9297-2efaca2528b7,2024-05-22 16:08:00,BR,organic,verified,2024-05-28 14:08:00,true
+df064cde-0e57-44c2-9cd1-6b2933551432,2024-03-31 02:47:00,CA,organic,verified,2024-04-09 16:47:00,false
+17ade621-1976-42ad-b042-e2d324d54f89,2024-04-30 23:11:00,BR,paid_search,pending,\N,true
+a01cfbb8-78cb-4657-93cd-c77662f6d2db,2024-03-16 03:59:00,BR,partner,pending,\N,false
+489dba09-7f64-4871-8a48-253ceac4a4db,2024-07-15 15:42:00,US,referral,verified,2024-07-29 07:42:00,false
+6139b2f3-82e9-44f9-a5a9-61dc56a0d961,2024-01-29 04:16:00,US,referral,verified,2024-01-31 17:16:00,false
+cfcf7597-a14d-49c0-ba3b-57fac83fa405,2024-09-01 07:48:00,US,partner,pending,\N,false
+3dee7520-0238-4f30-843e-127525fc16fc,2024-05-14 12:33:00,US,affiliate,pending,\N,false
+4cb2e993-6098-4a14-becc-0c9846262e5f,2024-12-13 18:33:00,US,referral,verified,2024-12-14 17:33:00,false
+8251b74a-21e3-45ab-8ad6-2ca31ffa69d0,2025-03-08 21:39:00,BR,paid_search,pending,\N,false
+02d1771c-eb44-4f5b-91b4-4173ee584ef3,2024-02-20 16:41:00,SG,partner,verified,2024-03-01 14:41:00,false
+5bc489b0-3c25-4f30-87a4-b4be4122ce9d,2024-10-28 14:33:00,NL,paid_search,verified,2024-11-12 09:33:00,true
+bdd23c8e-b34c-462a-bcff-e5b7d35d764f,2024-01-05 10:00:00,US,paid_search,verified,2024-01-16 16:00:00,false
+4d0bcee7-f8d3-46e3-8a30-61a5217b5521,2024-05-25 16:12:00,US,affiliate,verified,2024-06-07 23:12:00,false
+b30ffaf6-282e-4d85-b4a0-1ab68b5dd9e9,2025-03-03 14:38:00,US,referral,verified,2025-03-06 05:38:00,false
+1739a901-9da9-4695-ab58-4ebe676ae40c,2025-01-27 04:36:00,US,organic,pending,\N,false
+f1f47547-cfda-4495-af06-f81e7965f686,2024-05-30 22:42:00,FR,affiliate,rejected,\N,false
+daaefeca-3e58-4a79-a2f9-849b7a84b38b,2024-08-07 06:57:00,US,partner,verified,2024-08-14 05:57:00,false
+aa29b864-7584-4e85-bc1a-8c74c172cc8a,2024-02-01 20:24:00,US,sales,verified,2024-02-03 04:24:00,false
+2ec0e3a4-b7fe-43cc-bab8-df02ef5c9d5c,2024-02-05 23:59:00,US,referral,verified,2024-02-14 10:59:00,false
+45a512a9-f4db-4db7-b088-75e54c336477,2025-01-28 21:13:00,IN,partner,verified,2025-01-31 05:13:00,true
+bb982fee-f692-49e0-9bfd-38974d4e84b0,2024-02-07 10:36:00,US,referral,verified,2024-02-17 00:36:00,false
+7baa7b98-f7f4-4603-a261-ce200145dec7,2024-01-01 09:42:00,AU,affiliate,verified,2024-01-04 16:42:00,false
+766f8bb1-b866-4b11-8376-292cff6ab830,2024-09-21 06:49:00,CA,partner,verified,2024-09-30 15:49:00,false
+92df90ba-4c95-49d0-b4cc-f681f4518a32,2024-02-06 01:14:00,BR,referral,verified,2024-02-20 19:14:00,false
+f4d07cde-0ceb-4888-804b-e9541ef0a282,2024-07-02 18:43:00,FR,affiliate,verified,2024-07-04 00:43:00,true
+290b75e6-d3da-4518-bebb-fe7c9775bc70,2024-09-30 18:05:00,SG,paid_search,pending,\N,false
+9b3837d8-f232-4084-95eb-43e58a4d6a7f,2024-10-10 09:24:00,AU,affiliate,verified,2024-10-16 20:24:00,false
+e1665e5f-70e7-47e0-a262-4b5dc9918b48,2024-07-02 23:05:00,GB,organic,pending,\N,true
+24dd132e-ce35-4ca4-98b9-b2afdcf185af,2024-01-14 07:37:00,US,referral,verified,2024-01-22 16:37:00,false
+2a92c3b7-e537-4f61-ae81-80fb763abcee,2024-09-30 22:01:00,US,partner,verified,2024-10-02 04:01:00,false
+d13e9d1d-2a1d-4349-8fff-8a6335c0f9b6,2024-04-19 04:42:00,IN,referral,verified,2024-05-03 17:42:00,false
+9de558ac-5a5d-486e-b505-72af9d10f66b,2024-04-29 10:02:00,FR,referral,verified,2024-05-09 22:02:00,false
+3572998c-4d9b-4fa9-9e1b-9b577c08f6ce,2024-01-24 15:44:00,US,organic,verified,2024-01-25 00:44:00,false
+3530211c-9ab5-4496-a3c5-c547f8f02467,2025-02-10 11:29:00,US,sales,verified,2025-02-23 03:29:00,true
+199aeb90-2e9a-4462-afb4-8449e4a1ad20,2024-11-01 03:14:00,GB,sales,verified,2024-11-05 12:14:00,false
+f2ed3a67-221d-4108-9333-48a0ae0babba,2024-12-13 20:20:00,DE,organic,verified,2024-12-28 12:20:00,false
+de4af20b-9d88-4ff3-9a48-a3f40505c50e,2025-02-10 14:48:00,US,organic,verified,2025-02-14 08:48:00,false
+c08c88e9-0392-4648-a0fa-0501e0d7d5b7,2024-07-31 13:44:00,GB,affiliate,verified,2024-08-04 03:44:00,true
+b77531b6-4c8b-4727-9c91-a00e12e116a7,2024-02-22 04:39:00,US,referral,verified,2024-02-25 14:39:00,true
+5fac40e1-a73c-4a6a-893a-28da1aaa43d8,2024-04-01 10:45:00,CA,sales,verified,2024-04-07 13:45:00,false
+d756a808-e71d-44ba-b2ca-e5bef617936a,2024-12-20 12:13:00,GB,paid_search,verified,2024-12-26 08:13:00,false
+b9bbf6d0-fb60-4f92-93f3-a5fba1e960ec,2024-11-09 06:02:00,FR,organic,verified,2024-11-19 23:02:00,false
+d908142b-2826-4511-bed5-029338d98227,2024-06-03 19:26:00,US,affiliate,verified,2024-06-08 21:26:00,false
+09a3093e-c10b-49a0-ae17-4202db0f7124,2024-11-12 19:55:00,GB,referral,verified,2024-11-24 09:55:00,false
+f2007776-3a40-46d7-a070-1d2ad9d51586,2024-04-16 16:03:00,AU,affiliate,verified,2024-04-19 22:03:00,false
+b08dc9c1-e800-4194-b4e2-544e73c5e95b,2024-03-31 13:42:00,US,paid_search,pending,\N,false
+bb9b4c2f-30f3-407b-a006-cf42b7924bd8,2024-05-08 18:39:00,SG,organic,pending,\N,false
+6b04fd46-e89e-4dd8-ba64-0b9851e4684a,2024-10-02 13:10:00,GB,organic,pending,\N,false
+fd8bb5d0-1392-4df1-bd61-e165ff5c728b,2025-01-04 22:37:00,US,partner,verified,2025-01-13 22:37:00,false
+54f672f6-1256-445e-a47c-85d3f4a9da6c,2025-02-02 11:20:00,AU,sales,verified,2025-02-07 14:20:00,false

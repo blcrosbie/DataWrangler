@@ -1,0 +1,53 @@
+services:
+  postgres16:
+    image: postgres:16
+    container_name: datawrangler_postgres16_quiz
+    environment:
+      POSTGRES_DB: screening_prep
+      POSTGRES_USER: quiz_user
+      POSTGRES_PASSWORD: quiz_pass
+    ports:
+      - "55432:5432"
+    volumes:
+      - postgres_quiz_data:/var/lib/postgresql/data
+      - .:/workspace:ro
+      - ./sql/postgres/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U quiz_user -d screening_prep"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  quiz-shell:
+    build: .
+    container_name: datawrangler_quiz_shell
+    depends_on:
+      postgres16:
+        condition: service_healthy
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: >
+      sh -c "python main.py setup --engine duckdb --force &&
+             echo 'Quiz shell ready. Postgres: localhost:55432, DB: screening_prep' &&
+             tail -f /dev/null"
+    tty: true
+    stdin_open: true
+
+  postgres-reset:
+    image: postgres:16
+    depends_on:
+      postgres16:
+        condition: service_healthy
+    environment:
+      PGPASSWORD: quiz_pass
+    volumes:
+      - .:/workspace:ro
+    working_dir: /workspace
+    entrypoint:
+      - sh
+      - -c
+      - psql -h postgres16 -U quiz_user -d screening_prep -v ON_ERROR_STOP=1 -f /workspace/sql/postgres/reset.sql
+
+volumes:
+  postgres_quiz_data:

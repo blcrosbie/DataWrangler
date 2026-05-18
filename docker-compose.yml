@@ -1,23 +1,13 @@
-version: '3.8'
-
 services:
-  data-wrangler:
+  sql-prep:
     build: .
-    container_name: fintech_analysis_env
+    container_name: datawrangler_sql_prep
+    working_dir: /workspace
     volumes:
-      - .:/app
-    environment:
-      - SCENARIO=fintech # Can be fintech, nlp, etc.
+      - .:/workspace
     command: >
-      sh -c "python main.py --scenario $${SCENARIO} && 
-             echo 'DataWrangler environment [Scenario: $${SCENARIO}] ready.' &&
+      sh -c "python main.py setup --engine duckdb --force &&
+             echo 'DuckDB practice database is ready at artifacts/screening_prep.duckdb' &&
              tail -f /dev/null"
-    # Keeping the container alive for benchmarking/exploration
     tty: true
     stdin_open: true
-
-  # (Optional) You could add a PG container here later for comparison
-  # postgres:
-  #   image: postgres:15
-  #   environment:
-  #     POSTGRES_PASSWORD: password

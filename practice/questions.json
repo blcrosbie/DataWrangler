@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Q01",
+    "title": "Settled Card Spend by Country and Merchant Category",
+    "difficulty": "easy",
+    "topics": ["joins", "ctes", "aggregations"],
+    "tracks": ["data_analyst", "data_engineer"],
+    "prompt": "Deduplicate transaction_events by keeping the latest ingested_at per processor_reference. From that deduped set, derive the latest status per logical_tx_id. Return total USD card_purchase amount and transaction count for settled transactions in the last 90 days, grouped by user country and merchant category, sorted by total amount descending."
+  },
+  {
+    "id": "Q02",
+    "title": "Processor Duplicate Audit",
+    "difficulty": "medium",
+    "topics": ["windows", "deduping"],
+    "tracks": ["data_engineer"],
+    "prompt": "Find duplicated processor rows in transaction_events using processor_reference. Keep the latest ingested_at row as the survivor and return the rows that would be discarded, including processor_reference, event_id, event_time, ingested_at, and a row_number-style rank that shows why the row is a duplicate."
+  },
+  {
+    "id": "Q03",
+    "title": "Top Users Per Country by Settled Spend",
+    "difficulty": "medium",
+    "topics": ["joins", "windows", "ranking"],
+    "tracks": ["data_analyst"],
+    "prompt": "After deduping by processor_reference and keeping the latest status per logical_tx_id, rank the top 3 users in each country by total settled USD spend. Return country, user_id, total_amount, and the within-country rank."
+  },
+  {
+    "id": "Q04",
+    "title": "30-Day Activation Rate by Acquisition Channel",
+    "difficulty": "medium",
+    "topics": ["joins", "ctes", "analytics"],
+    "tracks": ["data_analyst", "data_engineer"],
+    "prompt": "Define a user as activated if they have at least one settled transaction within 30 days of signup. Using latest logical transaction status after deduping, calculate activation rate by acquisition_channel. Return signed_up_users, activated_users, and activation_rate."
+  },
+  {
+    "id": "Q05",
+    "title": "Signup Cohort to First Settled Transaction Month",
+    "difficulty": "hard",
+    "topics": ["cohorting", "ctes", "aggregations"],
+    "tracks": ["data_analyst"],
+    "prompt": "Build a monthly cohort table where cohort_month is date_trunc('month', users.created_at) and conversion_month is the month of each user's first settled transaction. Return the number of users for each cohort_month and month_offset between signup month and conversion month. Ignore users who never settle a transaction."
+  },
+  {
+    "id": "Q06",
+    "title": "Rapid-Fire Transfer Detection",
+    "difficulty": "hard",
+    "topics": ["fraud", "windows", "aggregations"],
+    "tracks": ["data_engineer"],
+    "prompt": "Using latest-status logical transactions after deduping, identify source accounts with at least 4 settled transfer transactions within any rolling 10-minute window. Return src_account_id, the window start timestamp, the window end timestamp, and the number of transactions in that window."
+  },
+  {
+    "id": "Q07",
+    "title": "Repeated Amount Transfer Anomalies",
+    "difficulty": "hard",
+    "topics": ["fraud", "windows", "deduping"],
+    "tracks": ["data_engineer"],
+    "prompt": "Using latest-status logical transactions after deduping, find source accounts that sent the exact same settled transfer amount at least 3 times within 30 minutes. Return src_account_id, amount, first_tx_time, last_tx_time, and tx_count."
+  },
+  {
+    "id": "Q08",
+    "title": "Decline Rate by Channel and KYC Status",
+    "difficulty": "medium",
+    "topics": ["joins", "aggregations", "analytics"],
+    "tracks": ["data_analyst", "data_engineer"],
+    "prompt": "After deduping and collapsing to one latest row per logical_tx_id, calculate transaction decline rate by acquisition_channel and kyc_status. Return total_transactions, declined_transactions, and decline_rate."
+  },
+  {
+    "id": "Q09",
+    "title": "Monthly Fee Revenue by Transaction Type",
+    "difficulty": "easy",
+    "topics": ["aggregations", "ctes"],
+    "tracks": ["data_analyst", "data_engineer"],
+    "prompt": "Using latest-status logical transactions after deduping, calculate monthly fee revenue by tx_type for settled transactions only. Return month, tx_type, settled_tx_count, total_amount, and total_fee_amount."
+  },
+  {
+    "id": "Q10",
+    "title": "Business vs Consumer Settled Volume Mix",
+    "difficulty": "medium",
+    "topics": ["joins", "aggregations"],
+    "tracks": ["data_analyst"],
+    "prompt": "After deduping and taking the latest row per logical_tx_id, calculate settled USD volume split between business and consumer users by month. Return month, user_segment, settled_volume, and share_of_monthly_volume."
+  }
+]

@@ -49,5 +49,19 @@ services:
       - -c
       - psql -h postgres16 -U quiz_user -d screening_prep -v ON_ERROR_STOP=1 -f /workspace/sql/postgres/reset.sql
 
+  exam-harness:
+    build: .
+    container_name: datawrangler_exam_harness
+    depends_on:
+      postgres16:
+        condition: service_healthy
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: >
+      sh -c "python main.py setup --engine duckdb --force &&
+             pytest &&
+             python data_wrangler/testing_harness.py --rows ${ROWS:-50000}"
+
 volumes:
   postgres_quiz_data:

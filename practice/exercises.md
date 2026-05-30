@@ -43,3 +43,4 @@ Each run writes:
 - Prompts: [questions.json](questions.json)
 - Postgres solutions: [solutions/postgres.sql](solutions/postgres.sql)
 - DuckDB solutions: [solutions/duckdb.sql](solutions/duckdb.sql)
+- Optimization problem sets: [sql_optimization_problem_sets.md](sql_optimization_problem_sets.md)

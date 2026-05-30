@@ -32,6 +32,7 @@ It is designed to rehearse the kinds of SQL work that show up in analytics and d
 - [practice/questions.json](practice/questions.json): prompt bank
 - [practice/solutions/duckdb.sql](practice/solutions/duckdb.sql): DuckDB reference answers
 - [practice/solutions/postgres.sql](practice/solutions/postgres.sql): Postgres reference answers
+- [practice/sql_optimization_problem_sets.md](practice/sql_optimization_problem_sets.md): medium/hard SQL optimization problem sets with multiple answer styles
 - [practice/schema_reference.md](practice/schema_reference.md): schema guide
 - [practice/exercises.md](practice/exercises.md): exercise index
 - [practice/mock_exam_guide.md](practice/mock_exam_guide.md): mock-exam workflow
